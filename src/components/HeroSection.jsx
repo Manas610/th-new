@@ -12,7 +12,7 @@ function HeroSection() {
             </div>
             <div className="mt-8">
                 <Button outline gradientDuoTone="greenToBlue">
-                    Get Started <span className='font-extrabold pl-2'>&#x2192;</span>
+                    Get Started
                 </Button>
             </div>
         </div>

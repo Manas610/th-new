@@ -24,7 +24,7 @@ export default function Home() {
             we have the skills and expertise to help take your online presence to the next level.</p>
             <div className="mt-8">
                 <Button outline gradientDuoTone="greenToBlue">
-                    Get Started <span className='font-extrabold pl-2'>&#x2192;</span>
+                    Get Started
                 </Button>
             </div>
           </div>
