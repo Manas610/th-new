@@ -1,13 +1,13 @@
 'use client';
 
 import { Button, Navbar } from 'flowbite-react';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 function HeaderTH() {
   return (
     <Navbar fluid className="py-6">
       <Navbar.Brand href="https://flowbite-react.com" className="text-black dark:text-white">
-        <Image src="../app/favicon.ico" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
+        {/* <Image src="../app/favicon.ico" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" width={32} height={32}/> */}
         <span className="self-center whitespace-nowrap text-xl font-semibold">Flowbite React</span>
       </Navbar.Brand>
       <div className="flex md:order-2">

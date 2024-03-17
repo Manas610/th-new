@@ -4,6 +4,12 @@ import { Accordion } from 'flowbite-react';
 
 function AccordionTH() {
   return (
+    <>
+    <div className="flex justify-center pb-8">
+      <span className="text-black font-medium p-1 px-6 text-center text-red-700 bg-red-100 rounded inline-block">
+        Why Choose Us
+      </span>
+    </div>
     <Accordion>
       <Accordion.Panel>
         <Accordion.Title>What is Flowbite?</Accordion.Title>
@@ -72,6 +78,7 @@ function AccordionTH() {
         </Accordion.Content>
       </Accordion.Panel>
     </Accordion>
+    </>
   );
 }
 

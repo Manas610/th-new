@@ -1,5 +1,6 @@
 import AccordionTH from "@/components/Accordion";
 import HeroSection from "@/components/HeroSection";
+import ServiceSection from "@/components/ServiceSection";
 import { Button } from "flowbite-react";
 
 export default function Home() {
@@ -9,12 +10,12 @@ export default function Home() {
         <div>
           <HeroSection />
         </div>
-        <div className="grid gap-4 sm:grid-cols-2 min-h-screen">
+        <div className="grid gap-4 sm:grid-cols-2 pb-32">
           <div>
             <p className="text-black">Photo</p>
           </div>
           <div>
-            <span className="bg-red-100 p-1 rounded text-red-700 font-medium my-4">About Tycoon Hamlet</span>
+            <span className="bg-red-100 p-1 rounded px-6 text-red-700 font-medium my-4">About Tycoon Hamlet</span>
             <p className="my-4 font-extrabold text-black text-4xl">We Are Fully Integrated Digital Business</p>
             <p className="text-black pr-8 my-4 mr-16 leading-6 font-sans text-justify">Our company specializes in creating stunning, 
             user-friendly websites that are tailored to meet the unique needs 
@@ -30,11 +31,14 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div>
+          <ServiceSection />
+        </div>
         <div className="grid gap-4 sm:grid-cols-12">
-          <div className="sm:col-span-8">
+          <div className="sm:col-span-7">
             <AccordionTH />
           </div>
-          <div className="sm:col-span-4">
+          <div className="sm:col-span-5">
             <p className="text-black">Hello</p>
           </div>
         </div>
