@@ -21,7 +21,7 @@ export default function Home() {
             of our clients. We offer a wide range of web development services, including website design, e-commerce development, 
             and custom web application development. Our team of experienced developers and designers work closely with clients 
             to understand their goals and create a website that will help them achieve success online. We pride ourselves on 
-            delivering high-quality work and exceptional customer service. Whether you&apos;re a small startup or a large corporation, 
+            delivering high-quality work and exceptional customer service. Whether {"you're"} a small startup or a large corporation, 
             we have the skills and expertise to help take your online presence to the next level.</p>
             <div className="mt-8">
                 <Button outline gradientDuoTone="greenToBlue">
