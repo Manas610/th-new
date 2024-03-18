@@ -1,6 +1,6 @@
 "use client"
 
-import { Button } from 'flowbite-react';
+import '@/css/button.css'
 
 function HeroSection() {
   return (
@@ -11,13 +11,13 @@ function HeroSection() {
                 <p>Unleash the power of web for your business with our innovative web solutions and our best in class digital sevices</p>
             </div>
             <div className="mt-8">
-                <Button outline gradientDuoTone="greenToBlue">
-                    Get Started <span className='font-extrabold pl-2'>&#x2192;</span>
-                </Button>
+                <button className="wave-button relative overflow-hidden bg-red-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline inline-block">
+                    Get Started &#10132;
+                </button>
             </div>
         </div>
         <div className="hidden sm:block">
-            <p className="text-black">Hello there?</p>
+            <p className="text-black">Photo</p>
         </div>
     </div>
   )

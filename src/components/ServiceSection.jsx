@@ -11,8 +11,8 @@ function ServiceSection() {
                 The Range of Services That we Provide
             </p>
         </div>  
-        <div className="grid lg:grid-cols-3 m-8">
-            <div className="bg-blue-600 inline-block w-96 rounded h-96">
+        <div className="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-8 lg:m-8">
+            <div className="bg-blue-600 inline-block w-auto rounded h-80">
                 <div></div>
                 <div className="flex flex-col text-center pt-4 font-semibold text-lg">Web Development</div>
                 <div><p className="p-4">
@@ -20,7 +20,7 @@ function ServiceSection() {
                  to give a seamless experience to the users.
                 </p></div>
             </div>
-            <div className="bg-blue-600 inline-block w-96 rounded h-96">
+            <div className="bg-blue-600 inline-block w-auto rounded h-80">
                 <div></div>
                 <div className="flex flex-col text-center pt-4 font-semibold text-lg">Web Development</div>
                 <div><p className="p-4">
@@ -28,7 +28,7 @@ function ServiceSection() {
                  to give a seamless experience to the users.
                 </p></div>
             </div>
-            <div className="bg-blue-600 inline-block w-96 rounded h-96">
+            <div className="bg-blue-600 inline-block w-auto rounded h-80">
                 <div></div>
                 <div className="flex flex-col text-center pt-4 font-semibold text-lg">Web Development</div>
                 <div><p className="p-4">

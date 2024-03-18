@@ -1,6 +1,7 @@
 'use client';
 
-import { Button, Navbar } from 'flowbite-react';
+import { Navbar } from 'flowbite-react';
+import '@/css/button.css'
 // import Image from 'next/image';
 
 function HeaderTH() {
@@ -11,7 +12,9 @@ function HeaderTH() {
         <span className="self-center whitespace-nowrap text-xl font-semibold">Flowbite React</span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button>Get started</Button>
+          <button className="wave-button relative overflow-hidden bg-red-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline inline-block">
+            Get Started
+          </button>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
