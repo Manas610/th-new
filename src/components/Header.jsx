@@ -6,10 +6,10 @@ import '@/css/button.css'
 
 function HeaderTH() {
   return (
-    <Navbar fluid className="py-6">
+    <Navbar fluid className={`py-6 fixed top-0 left-0 right-0 z-50`} >
       <Navbar.Brand href="https://flowbite-react.com" className="text-black dark:text-white">
         {/* <Image src="../app/favicon.ico" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" width={32} height={32}/> */}
-        <span className="self-center whitespace-nowrap text-xl font-semibold">Flowbite React</span>
+        <span className="self-center whitespace-nowrap text-xl font-semibold">Tycoon Hamlet</span>
       </Navbar.Brand>
       <div className="flex md:order-2">
           <button className="wave-button relative overflow-hidden bg-red-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline inline-block">
