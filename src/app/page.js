@@ -12,7 +12,7 @@ export default function Home() {
         <div>
           <HeroSection />
         </div>
-        <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 pb-32">
+        <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 pb-32">
           <div>
             {/* <p className="text-black">Photo</p> */}
             <Image className="heroSectionPic" src="/images/laptop.jpeg" width={800} height={800} />

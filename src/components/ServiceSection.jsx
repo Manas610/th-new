@@ -12,7 +12,7 @@ function ServiceSection() {
             </p>
         </div>  
         <div className="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-8 lg:m-8">
-            <div className="bg-blue-600 inline-block w-auto rounded h-80">
+            <div className="bg-blue-600 inline-block w-auto rounded h-80 hover:shadow-lg shadow-black">
                 <div></div>
                 <div className="flex flex-col text-center pt-4 font-semibold text-lg">Web Development</div>
                 <div><p className="p-4">
