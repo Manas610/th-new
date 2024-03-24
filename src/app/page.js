@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <div className="bg-slate-100 p-12">
+      <div className="p-12">
         <div>
           <HeroSection />
         </div>

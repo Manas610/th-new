@@ -18,23 +18,45 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
-    background-color: white;
+    rgb(var(--background-start-rgb)); */
+    background-color: #f1f5f9;
 }
 
 .navbar, .navbar > * {
   border: none !important;
 }
 
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .glassmorphism {
-  background: rgba(255, 255, 255, 0.2); /* Adjust the opacity to your liking */
+  background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.18); /* Optional: adds a slight border */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.bottom-shadow {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.animated-gradient {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  background-size: 800% 800%;
+  animation: gradientBG 15s ease infinite;
 }
 
 .blob-container::before {
