@@ -6,7 +6,7 @@ function AccordionTH() {
   return (
     <>
     <div className="flex justify-center pb-8">
-      <span className="text-black font-medium p-1 px-6 text-center text-red-700 bg-red-100 rounded inline-block">
+      <span className=" font-medium p-1 px-6 text-center text-red-700 bg-red-100 rounded inline-block">
         Why Choose Us
       </span>
     </div>

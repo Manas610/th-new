@@ -27,6 +27,10 @@ body {
     background-color: white;
 }
 
+.navbar, .navbar > * {
+  border: none !important;
+}
+
 .glassmorphism {
   background: rgba(255, 255, 255, 0.2); /* Adjust the opacity to your liking */
   backdrop-filter: blur(10px);
@@ -40,7 +44,7 @@ body {
   height: 100%;
   background: rgba(255, 0, 0, 0.2); /* Red blob with opacity */
   border-radius: 50%;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   animation: blob 5s infinite;

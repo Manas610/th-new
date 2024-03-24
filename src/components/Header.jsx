@@ -6,7 +6,7 @@ import '@/css/button.css'
 
 function HeaderTH() {
   return (
-    <Navbar fluid className={`py-4 fixed top-0 left-0 right-0 z-50 glassmorphism`} >
+    <Navbar fluid className={`py-4 fixed top-0 left-0 right-0 z-50 glassmorphism navbar`} >
       <Navbar.Brand href="https://flowbite-react.com" className="text-black dark:text-white">
         {/* <Image src="../app/favicon.ico" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" width={32} height={32}/> */}
         <span className="self-center whitespace-nowrap text-xl font-semibold">Tycoon Hamlet</span>
