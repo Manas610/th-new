@@ -22,7 +22,7 @@ function HeroSection() {
                         height={200}
                     />
                 </div>
-                <span className="lg:text-7xl md:text-5xl 2xl">LOGO PORTFOLIO</span>
+                <span className="lg:text-7xl md:text-5xl 2xl text-white">LOGO PORTFOLIO</span>
                 <div
                 className="absolute"
                 style={{

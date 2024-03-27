@@ -11,11 +11,11 @@ function ServiceSection() {
             </span>
         </div>
         <div className="mb-16">
-            <p className="text-black flex flex-col text-center text-4xl font-bold">
+            <p className="flex flex-col text-center text-4xl font-bold">
                 The Range of Services That we Provide
             </p>
         </div>  
-        <div className="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-8 lg:m-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-8 lg:m-8 text-white">
             <div className="bg-blue-600 inline-block w-auto rounded h-80 hover:shadow-xl shadow-black">
                 <div className="my-4"><FaLaptop className="text-6xl mx-auto" /></div>
                 <div className="flex flex-col text-center pt-4 font-semibold text-lg">Web Development</div>

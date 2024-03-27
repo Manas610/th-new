@@ -8,7 +8,7 @@ function HeroSection() {
   return (
     <div className="min-h-screen grid gap-4 sm:grid-cols-2 pt-16">
         <div className="justify-center items-center flex flex-col md:p-12">
-            <div className="text-black">
+            <div>
                 <p className="text-4xl font-bold">Elevate your brand with a Custom Website</p>
                 <p>Unleash the power of web for your business with our innovative web solutions and our best in class digital sevices</p>
             </div>
