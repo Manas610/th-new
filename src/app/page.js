@@ -15,7 +15,7 @@ export default function Home() {
         <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 pb-32">
           <div>
             {/* <p className="text-black">Photo</p> */}
-            <Image className="heroSectionPic" src="/images/laptop.jpeg" width={800} height={800} />
+            <Image className="heroSectionPic" src="/images/laptop.jpeg" alt="Hero pic 2" width={800} height={800} />
           </div>
           <div>
             <span className="bg-red-100 p-1 rounded md:px-6 text-red-700 font-medium my-4">About Tycoon Hamlet</span>
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
           <div className="sm:col-span-5">
             {/* <p className="text-black">Hello</p> */}
-            <Image className="heroSectionPic" src="/images/laptop.jpeg" width={800} height={800} />
+            <Image className="heroSectionPic" src="/images/laptop.jpeg" alt="Hero Pic 1" width={800} height={800} />
           </div>
         </div>
       </div>
