@@ -110,3 +110,18 @@ body {
   }
 }
 
+.hero-section {
+  /* ... other styles */
+  display: grid; /* Use grid layout for precise control */
+  grid-template-columns: 3fr 1fr; /* Define columns: strip (3 parts), image (1 part) */
+}
+
+.hero-strip {
+  background-color: #333; /* Customize color */
+  color: #fff; /* Text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Fix height of the strip */
+}
+
