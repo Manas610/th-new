@@ -1,0 +1,43 @@
+{
+    "apps": [
+      {
+        "title": "iQuote",
+        "rating": 4.5,
+        "progress": "Published",
+        "features": [
+          "Feature 1 for iQuote",
+          "Feature 2 for iQuote",
+          "Feature 3 for iQuote",
+          "Feature 4 for iQuote",
+          "Feature 5 for iQuote",
+          "Feature 6 for iQuote",
+          "Feature 7 for iQuote",
+          "Feature 8 for iQuote"
+        ],
+        "tags":["motivation"] ,
+        "color": "bg-blue-600",
+        "description":"iQuote is an innovative app designed to inspire and motivate users with daily quotes.",
+        "fdescription": "iQuote is an innovative app designed to inspire and motivate users with daily quotes. It offers a vast collection of quotes from famous personalities across various genres. Users can save their favorite quotes, share them on social media, and even submit their own. With a user-friendly interface, iQuote provides a seamless experience for quote enthusiasts. Whether you're looking for inspiration, motivation, or just a good read, iQuote has something for everyone."
+      },
+      {
+        "title": "ScoreKeeper",
+        "rating": 4.0,
+        "progress": "Published",
+        "features": [
+          "Feature 1 for ScoreKeeper",
+          "Feature 2 for ScoreKeeper",
+          "Feature 3 for ScoreKeeper",
+          "Feature 4 for ScoreKeeper",
+          "Feature 5 for ScoreKeeper",
+          "Feature 6 for ScoreKeeper",
+          "Feature 7 for ScoreKeeper",
+          "Feature 8 for ScoreKeeper"
+        ],
+        "tags":["sports" , "basketball" , "score"],
+        "color": "bg-red-400",
+        "description":"ScoreKeeper is the ultimate solution for tracking scores in any game or sport.",
+        "fdescription": "ScoreKeeper is the ultimate solution for tracking scores in any game or sport. Easy to use, it allows users to set up games quickly and keep score with a simple interface. Supports multiple players and teams, making it perfect for gatherings, tournaments, and casual play. Users can customize game rules, save game histories, and view detailed statistics. Whether you're playing board games, sports, or card games, ScoreKeeper makes scoring easy and fun."
+      }
+    ]
+  }
+  

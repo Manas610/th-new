@@ -14,7 +14,6 @@ export default function Home() {
         </div>
         <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 pb-32">
           <div>
-            {/* <p className="text-black">Photo</p> */}
             <Image className="heroSectionPic" src="/images/laptop.jpeg" alt="Hero pic 2" width={800} height={800} />
           </div>
           <div>
@@ -42,7 +41,6 @@ export default function Home() {
             <AccordionTH />
           </div>
           <div className="sm:col-span-5">
-            {/* <p className="text-black">Hello</p> */}
             <Image className="heroSectionPic" src="/images/laptop.jpeg" alt="Hero Pic 1" width={800} height={800} />
           </div>
         </div>

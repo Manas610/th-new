@@ -6,7 +6,7 @@ function page() {
   return (
     <div>
       <div className="min-h-screen">
-        <HeroSection />
+        <HeroSection name="LOGO"/>
         <div className="mx-16 my-16">
           <span className="text-4xl font-semibold lg:text-6xl underline underline-offset-8 lg:underline-offset-[16px]">
             Our Recent Project
