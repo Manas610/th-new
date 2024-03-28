@@ -14,8 +14,8 @@ const page = ({params}) => {
     <div className="min-h-screen">
         <div className="grid grid-cols-6 gap-4 mt-32 bg-slate-400 h-60">
             <div className="col-span-5 ml-24 flex flex-col justify-center">
-                <div className="text-6xl">{app.title}</div>
-                <div className="text-xl mt-4">{app.progress} On play Store</div>
+                <div className="text-6xl font-semibold">{app.title}</div>
+                <div className="text-xl mt-4">{app.progress} on Playstore</div>
             </div>
             <div className="flex flex-col justify-center">Photo</div>
         </div>
@@ -30,7 +30,7 @@ const page = ({params}) => {
                 </ul>
             </div>
             <div className="col-span-1 space-y-6">
-                <div className="border-2 border-slate-800 inline-block py-2 px-1">
+                <div className="border rounded-md bg-white border-slate-800 inline-block py-4 px-16">
                     <Rating rating={app.rating} />
                 </div>
                 <div className="block">
@@ -59,7 +59,7 @@ const page = ({params}) => {
         <div className="pl-24 pb-16">
             <div className="text-4xl font-semibold">Description</div>
             <div className="py-8 pr-16">{app.fdescription}</div>
-            <div className="font-semibold">For support, contact at support@tycoonhamlet.com</div>
+            <div className="font-semibold">For support, contact at <a href={`mailto:support@tycoonhamlet.com`}>support@tycoonhamlet.com</a></div>
         </div>
 
         <hr className="border"/>
@@ -67,8 +67,8 @@ const page = ({params}) => {
             <div className="text-4xl">Join Updates</div>
             <div className="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, doloribus.</div>
             <form className="flex flex-row space-x-8">
-                <input className="rounded-md border-black border" placeholder=" Your Email" />
-                <button className="bg-red-500 px-4 py-2 rounded-full text-white">Join</button>
+                <input className="rounded-lg border-black border w-96" placeholder=" Your Email" />
+                <button className="bg-red-500 px-8 py-2 rounded-full text-white">Join</button>
             </form>
         </div>
     </div>

@@ -24,6 +24,7 @@ function ServiceSection() {
                  to give a seamless experience to the users.
                 </p></div>
             </div>
+            <Link href="/portfolio/apps">
             <div className="bg-yellow-300 inline-block w-auto rounded h-80 hover:shadow-xl shadow-black">
                 <div className="my-4"><AiOutlineMobile className="text-6xl mx-auto"/></div>
                 <div className="flex flex-col text-center pt-4 font-semibold text-lg">App Development</div>
@@ -32,6 +33,7 @@ function ServiceSection() {
                  to give a seamless experience to the users.
                 </p></div>
             </div>
+            </Link>
             <Link href="/portfolio/logos">
             <div className="bg-green-400 inline-block w-auto rounded h-80 hover:shadow-xl shadow-black">
                 <div className="my-4"><span className="text-6xl flex flex-col text-center">Logo</span></div>
