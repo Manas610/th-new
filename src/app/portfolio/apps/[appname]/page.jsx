@@ -24,8 +24,8 @@ const page = ({params}) => {
             <div className="col-span-2">
                 <span className="text-4xl font-semibold">Features</span>
                 <ul className="list-disc pl-8 pt-8">
-                    {app.features.map( list => (
-                        <li>{list}</li>
+                    {app.features.map( (list , index) => (
+                        <li key={index}>{list}</li>
                     ) )}
                 </ul>
             </div>
