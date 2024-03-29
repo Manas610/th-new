@@ -6,9 +6,7 @@ function ServiceSection({ data }) {
             {data.map(service => (
             <Card
                 key={service.id}
-                color={service.color}
                 title={service.title}
-                description={service.description}
             />
             ))}
         </div>

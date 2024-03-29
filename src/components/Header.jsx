@@ -1,9 +1,9 @@
 'use client';
 
+import Image from 'next/image';
 import { Navbar } from 'flowbite-react';
 import { usePathname } from 'next/navigation';
 import '@/css/button.css'
-// import Image from 'next/image';
 
 function HeaderTH() {
 
@@ -11,9 +11,9 @@ function HeaderTH() {
 
   return (
     <Navbar fluid className="py-4 fixed top-0 left-0 right-0 z-50 glassmorphism navbar bottom-shadow" >
-      <Navbar.Brand href="/" className="text-black dark:text-white">
-        {/* <Image src="../app/favicon.ico" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" width={32} height={32}/> */}
-        <span className="self-center whitespace-nowrap text-xl font-semibold lg:pl-16">Tycoon Hamlet</span>
+      <Navbar.Brand href="/" className="text-black lg:pl-16 dark:text-white">
+        <Image src="/images/logo/th_round_logo.png" alt="Tycoon Hamlet Logo" width={35} height={35}/>
+        <span className="self-center whitespace-nowrap text-xl font-semibold px-4">Tycoon Hamlet</span>
       </Navbar.Brand>
       <div className="flex md:order-2 lg:pr-16">
           <button className="wave-button relative overflow-hidden bg-red-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline inline-block">

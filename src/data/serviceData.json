@@ -1,26 +1,18 @@
 [
     {
       "id": 1,
-      "color": "bg-blue-600",
-      "title": "Web Development",
-      "description": "We design and develop mobile apps that are user-friendly and visually appealing to give a seamless experience to the users."
+      "title": "Web Development"
     },
     {
       "id": 2,
-      "color": "bg-yellow-300",
-      "title": "App Development",
-      "description": "We design and develop mobile apps that are user-friendly and visually appealing to give a seamless experience to the users."
+      "title": "App Development"
     },
     {
       "id": 3,
-      "color": "bg-green-400",
-      "title": "Logo Designing",
-      "description": "We create unique and memorable logos that effectively communicate your brand's values and personality."
+      "title": "Logo Designing"
     },
     {
       "id": 4,
-      "color": "bg-red-400",
-      "title": "SEO Optimization",
-      "description": "We optimize your website for search engines to increase visibility and drive more organic traffic."
+      "title": "SEO Optimization"
     }
   ]

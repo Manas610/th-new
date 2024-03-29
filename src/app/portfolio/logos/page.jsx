@@ -8,10 +8,10 @@ function page() {
       <div className="min-h-screen">
         <HeroSection name="LOGO"/>
         <div className="mx-16 my-16">
-          <span className="text-4xl font-semibold lg:text-6xl underline underline-offset-8 lg:underline-offset-[16px]">
+          <span className="text-4xl font-semibold lg:text-5xl underline underline-offset-8 lg:underline-offset-[16px]">
             Our Recent Project
           </span>
-          <span className="lg:text-6xl text-4xl"> ✨</span>
+          <span className="lg:text-5xl text-4xl"> ✨</span>
         </div>
         <ServiceSection data={servicedata}/>
         <div className="flex flex-col justify-center items-center my-16">
@@ -20,10 +20,10 @@ function page() {
           </button>
         </div>
         <div className="mx-16 my-16">
-          <span className="text-black text-4xl font-semibold lg:text-6xl underline underline-offset-8 lg:underline-offset-[16px]">
+          <span className="text-black text-4xl font-semibold lg:text-5xl underline underline-offset-8 lg:underline-offset-[16px]">
             Our App Logos
           </span>
-          <span className="lg:text-6xl text-4xl"> 📱</span>
+          <span className="lg:text-5xl text-4xl"> 📱</span>
         </div>
         <ServiceSection data={servicedata}/>
         <div className="flex flex-col justify-center items-center my-16">
@@ -32,10 +32,10 @@ function page() {
           </button>
         </div>
         <div className="mx-16 my-16">
-          <span className="text-black text-4xl font-semibold lg:text-6xl underline underline-offset-8 lg:underline-offset-[16px]">
+          <span className="text-black text-4xl font-semibold lg:text-5xl underline underline-offset-8 lg:underline-offset-[16px]">
             Brand Logos
           </span>
-          <span className="lg:text-6xl text-4xl"> 🛍️</span>
+          <span className="lg:text-5xl text-4xl"> 🛍️</span>
         </div>
         <ServiceSection data={servicedata}/>
         <div className="flex flex-col justify-center items-center my-16">
@@ -44,7 +44,7 @@ function page() {
           </button>
         </div>
         <div className="mx-16 my-16">
-          <span className="text-black text-4xl font-semibold lg:text-6xl underline underline-offset-8 lg:underline-offset-[16px]">
+          <span className="text-black text-4xl font-semibold lg:text-5xl underline underline-offset-8 lg:underline-offset-[16px]">
             Website Logos
           </span>
           <span className="lg:text-6xl text-4xl"> 🖥️</span>

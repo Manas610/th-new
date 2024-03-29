@@ -1,6 +1,7 @@
 'use client';
 
 import { Footer } from 'flowbite-react';
+import Image from 'next/image';
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
 
 function FooterTH() {
@@ -9,12 +10,14 @@ function FooterTH() {
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
-            <Footer.Brand
-              href="https://flowbite.com"
-              src="https://flowbite.com/docs/images/logo.svg"
-              alt="Flowbite Logo"
-              name="Tycoon Hamlet"
+            <Image
+              href="https://tycoonhamlet.com"
+              src="/images/logo/logo-light.png"
+              alt="Tycoon Hamlet Logo"
+              width={142}
+              height={50}
             />
+            <p className='py-8 font-semibold w-2/3'>Elevate and take your Business to the next level with our best quality Digital Products and Services</p>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>

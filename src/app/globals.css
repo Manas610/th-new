@@ -45,8 +45,8 @@ body {
 }
 
 .glassmorphism {
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -72,6 +72,46 @@ body {
   transform: translate(-50%, -50%);
   animation: blob 5s infinite;
 }
+
+.blob-container-sm-web::before {
+  content: '';
+  position: absolute;
+  width: 70px; /* Adjust size as needed */
+  height: 70px; /* Adjust size as needed */
+  background: rgb(96 165 250); /* Tailwind CSS bg-blue-400 equivalent */
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: blob 5s infinite;
+}
+
+.blob-container-sm-app::before {
+  content: '';
+  position: absolute;
+  width: 70px; /* Adjust size as needed */
+  height: 70px; /* Adjust size as needed */
+  background: rgb(248 113 113); /* Tailwind CSS bg-blue-400 equivalent */
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: blob 5s infinite;
+}
+
+.blob-container-sm-logo::before {
+  content: '';
+  position: absolute;
+  width: 140px; /* Adjust size as needed */
+  height: 70px; /* Adjust size as needed */
+  background: rgb(74 222 128); /* Tailwind CSS bg-blue-400 equivalent */
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: blob 5s infinite;
+}
+
 
 @keyframes blob {
   0%, 100% {
@@ -99,6 +139,7 @@ body {
 .heroSectionPic{
   animation: bounce 4s linear infinite; 
 }
+
 @keyframes bounce{
   0% {
     transform: translateY(-20px);
