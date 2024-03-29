@@ -12,69 +12,29 @@ function AccordionTH() {
     </div>
     <Accordion>
       <Accordion.Panel>
-        <Accordion.Title>What is Flowbite?</Accordion.Title>
+        <Accordion.Title>Works on Quality</Accordion.Title>
         <Accordion.Content>
           <p className="mb-2 text-gray-500 dark:text-gray-400">
-            Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons,
-            dropdowns, modals, navbars, and more.
-          </p>
-          <p className="text-gray-500 dark:text-gray-400">
-            Check out this guide to learn how to&nbsp;
-            <a
-              href="https://flowbite.com/docs/getting-started/introduction/"
-              className="text-cyan-600 hover:underline dark:text-cyan-500"
-            >
-              get started&nbsp;
-            </a>
-            and start developing websites even faster with components on top of Tailwind CSS.
+          We are committed to delivering the highest quality work and exceptional customer service.
+          All of our projects are rigorously tested to ensure they are functional, visually appealing, and user-friendly.
           </p>
         </Accordion.Content>
       </Accordion.Panel>
       <Accordion.Panel>
-        <Accordion.Title>Is there a Figma file available?</Accordion.Title>
+        <Accordion.Title>Works On Customer Statisfaction</Accordion.Title>
         <Accordion.Content>
           <p className="mb-2 text-gray-500 dark:text-gray-400">
-            Flowbite is first conceptualized and designed using the Figma software so everything you see in the library
-            has a design equivalent in our Figma file.
-          </p>
-          <p className="text-gray-500 dark:text-gray-400">
-            Check out the
-            <a href="https://flowbite.com/figma/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-              Figma design system
-            </a>
-            based on the utility classes from Tailwind CSS and components from Flowbite.
+          At our company, customer satisfaction is our top priority. We strive to exceed our clients' expectations and we are dedicated to providing 
+          a personalized and responsive service to ensure their complete satisfaction.
           </p>
         </Accordion.Content>
       </Accordion.Panel>
       <Accordion.Panel>
-        <Accordion.Title>What are the differences between Flowbite and Tailwind UI?</Accordion.Title>
+        <Accordion.Title>In-depth Reasearch</Accordion.Title>
         <Accordion.Content>
           <p className="mb-2 text-gray-500 dark:text-gray-400">
-            The main difference is that the core components from Flowbite are open source under the MIT license, whereas
-            Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone
-            components, whereas Tailwind UI offers sections of pages.
-          </p>
-          <p className="mb-2 text-gray-500 dark:text-gray-400">
-            However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no
-            technical reason stopping you from using the best of two worlds.
-          </p>
-          <p className="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-          <ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
-            <li>
-              <a href="https://flowbite.com/pro/" className="text-cyan-600 hover:underline dark:text-cyan-500">
-                Flowbite Pro
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://tailwindui.com/"
-                rel="nofollow"
-                className="text-cyan-600 hover:underline dark:text-cyan-500"
-              >
-                Tailwind UI
-              </a>
-            </li>
-          </ul>
+          We conduct in-depth research to understand the target audience, industry trends and consumer insights, which allows us to create effective and impactful solutions for our clients. 
+          We ensure that our solutions are aligned with the latest industry trends and technologies.</p>
         </Accordion.Content>
       </Accordion.Panel>
     </Accordion>

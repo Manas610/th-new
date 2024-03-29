@@ -17,8 +17,8 @@ function ServiceSection() {
                 The Range of Services That we Provide
             </p>
         </div>  
-        <div className="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-8 lg:m-8">
-            <div className="bg-blue-100 inline-block w-auto rounded h-80 hover:shadow-xl hover:shadow-slate-200">
+        <div className="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 lg:gap-24 gap-8 lg:m-8">
+            <div className="bg-sky-100 inline-block w-auto rounded-lg h-auto hover:shadow-xl hover:shadow-slate-200">
                 <div className="my-8">
                     <div className="flex justify-center relative blob-container-sm-web">
                         <FaLaptop className="text-5xl mx-auto z-10 text-white" />
@@ -31,7 +31,7 @@ function ServiceSection() {
                 </p></div>
             </div>
             <Link href="/portfolio/apps">
-            <div className="bg-red-100 inline-block w-auto rounded h-80 hover:shadow-xl hover:shadow-slate-200">
+            <div className="bg-red-100 inline-block w-auto rounded-lg h-auto hover:shadow-xl hover:shadow-slate-200">
                 <div className="my-8">
                     <div className="flex justify-center relative blob-container-sm-app">
                         <AiOutlineMobile className="text-5xl mx-auto z-10 text-white"/>
@@ -45,7 +45,7 @@ function ServiceSection() {
             </div>
             </Link>
             <Link href="/portfolio/logos">
-            <div className="bg-green-100 inline-block w-auto rounded h-80 hover:shadow-xl hover:shadow-slate-200">
+            <div className="bg-green-100 inline-block w-auto rounded-lg h-auto hover:shadow-xl hover:shadow-slate-200">
                 <div className="my-8">
                     <div className="flex justify-center relative blob-container-sm-logo">
                         <TbBrandItch className="text-5xl mx-auto z-10 text-white"/>

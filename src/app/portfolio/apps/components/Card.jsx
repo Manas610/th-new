@@ -5,7 +5,7 @@ function Card({ title, description }) {
   const url = `/portfolio/apps/${encodeURIComponent(title)}`;
 
     return (
-      <div className="bg-white hover:shadow-xl hover:shadow-slate-200 rounded-md overflow-hidden">
+      <div className="bg-white hover:shadow-xl hover:shadow-slate-200 rounded-lg overflow-hidden">
         <div className="grid sm:grid-cols-5 gap-4">
           <div className="md:col-span-2">
             <img src="/images/laptop.jpeg" alt="Description" className="w-full h-full object-cover" />

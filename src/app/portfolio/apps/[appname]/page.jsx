@@ -12,12 +12,14 @@ const page = ({params}) => {
 
   return (
     <div className="min-h-screen">
-        <div className="grid grid-cols-6 gap-4 mt-32 bg-slate-400 h-60">
-            <div className="col-span-5 ml-24 flex flex-col justify-center">
-                <div className="text-6xl font-semibold">{app.title}</div>
-                <div className="text-xl mt-4">{app.progress} on Playstore</div>
+        <div>
+            <div className="grid grid-cols-6 gap-4 mt-32 bg-slate-400 h-60 m-16 rounded-md">
+                <div className="col-span-5 ml-24 flex flex-col justify-center">
+                    <div className="text-6xl font-semibold">{app.title}</div>
+                    <div className="text-xl mt-4">{app.progress} on Playstore</div>
+                </div>
+                <div className="flex flex-col justify-center">Photo</div>
             </div>
-            <div className="flex flex-col justify-center">Photo</div>
         </div>
 
         <div className="grid grid-cols-3 gap-4 my-32 ml-24">
@@ -34,7 +36,7 @@ const page = ({params}) => {
                     <Rating rating={app.rating} />
                 </div>
                 <div className="block">
-                    <div className="text-white rounded-md bg-red-500 inline-block py-2 px-1">View on playstore</div>
+                    <div className="text-white rounded-md bg-red-500 inline-block py-2 px-8">View on playstore</div>
                 </div>
                 <div className="flex flex-col"> 
                 <span className="mb-2">Tags:</span> 
@@ -48,10 +50,10 @@ const page = ({params}) => {
                 </div>
 
                 <div className="block">
-                    <div className="text-white rounded-md bg-red-500 inline-block py-2 px-1">Download</div>
+                    <div className="text-white rounded-md bg-red-500 inline-block py-2 px-8">Download</div>
                 </div>
                 <div className="block">
-                    <div className="text-white rounded-md bg-red-500 inline-block py-2 px-1">Privacy Policy</div>
+                    <div className="text-white rounded-md bg-red-500 inline-block py-2 px-8">Privacy Policy</div>
                 </div>
             </div>
         </div>

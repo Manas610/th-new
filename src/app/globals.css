@@ -49,7 +49,7 @@ body {
 }
 
 .glassmorphism {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
@@ -82,7 +82,7 @@ body {
   position: absolute;
   width: 70px; /* Adjust size as needed */
   height: 70px; /* Adjust size as needed */
-  background: rgb(96 165 250); /* Tailwind CSS bg-blue-400 equivalent */
+  background: rgb(56 189 248); /* Tailwind CSS bg-blue-400 equivalent */
   border-radius: 50%;
   top: 50%;
   left: 50%;
