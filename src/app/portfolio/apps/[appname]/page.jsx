@@ -30,7 +30,7 @@ const page = ({params}) => {
                 </ul>
             </div>
             <div className="col-span-1 space-y-6">
-                <div className="border rounded-md bg-white border-slate-800 inline-block py-4 px-16">
+                <div className="rounded-md shadow-lg bg-white border-slate-800 inline-block py-4 px-16">
                     <Rating rating={app.rating} />
                 </div>
                 <div className="block">
@@ -64,12 +64,14 @@ const page = ({params}) => {
 
         <hr className="border"/>
         <div className="flex flex-col justify-center items-center my-16">
-            <div className="text-4xl">Join Updates</div>
-            <div className="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, doloribus.</div>
-            <form className="flex flex-row space-x-8">
-                <input className="rounded-lg border-black border w-96" placeholder=" Your Email" />
-                <button className="bg-red-500 px-8 py-2 rounded-full text-white">Join</button>
-            </form>
+            <div className="px-16 py-8 border border-slate-600 rounded-md">
+                <div className="text-4xl">Join Updates</div>
+                <div className="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, doloribus.</div>
+                <form className="flex flex-row space-x-8">
+                    <input className="rounded-lg border-black border w-96" placeholder=" Your Email" />
+                    <button className="bg-red-500 px-8 py-2 rounded-full text-white">Join</button>
+                </form>
+            </div>
         </div>
     </div>
   )

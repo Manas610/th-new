@@ -12,14 +12,14 @@ export default function Home() {
         <div>
           <HeroSection />
         </div>
-        <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 pb-32">
+        <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 pb-32 md:mx-16">
           <div>
             <Image className="heroSectionPic" src="/images/laptop.jpeg" alt="Hero pic 2" width={800} height={800} />
           </div>
           <div>
             <span className="bg-red-100 p-1 rounded md:px-6 text-red-700 font-medium my-4">About Tycoon Hamlet</span>
             <p className="my-4 font-extrabold text-black text-4xl">We Are Fully Integrated Digital Business</p>
-            <p className="text-black md:pr-8 my-4 md:mr-16 mr-8 leading-6 font-sans text-justify">Our company specializes in creating stunning, 
+            <p className="text-black md:pr-8 my-4 leading-6 font-sans text-justify">Our company specializes in creating stunning, 
             user-friendly websites that are tailored to meet the unique needs 
             of our clients. We offer a wide range of web development services, including website design, e-commerce development, 
             and custom web application development. Our team of experienced developers and designers work closely with clients 
@@ -33,10 +33,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="mx-16">
           <ServiceSection />
         </div>
-        <div className="grid gap-4 sm:grid-cols-12 my-32">
+        <div className="grid gap-4 sm:grid-cols-12 my-32 md:mx-16">
           <div className="sm:col-span-7">
             <AccordionTH />
           </div>

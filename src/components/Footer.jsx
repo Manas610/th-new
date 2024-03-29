@@ -5,6 +5,9 @@ import Image from 'next/image';
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
 
 function FooterTH() {
+
+  const currentYear = new Date().getFullYear();
+
   return (
     <Footer container className="rounded-none px-16">
       <div className="w-full">
@@ -17,7 +20,7 @@ function FooterTH() {
               width={142}
               height={50}
             />
-            <p className='py-8 font-semibold w-2/3'>Elevate and take your Business to the next level with our best quality Digital Products and Services</p>
+            <p className='py-8 w-2/3'>Elevate and take your Business to the next level with our best quality Digital Products and Services</p>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>
@@ -45,7 +48,7 @@ function FooterTH() {
         </div>
         <Footer.Divider />
         <div className="w-full sm:flex sm:items-center sm:justify-between">
-          <Footer.Copyright href="#" by="Flowbite™" year={2022} />
+          <Footer.Copyright href="#" by="Tycoon Hamlet" year={currentYear} />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon href="#" icon={BsFacebook} />
             <Footer.Icon href="#" icon={BsInstagram} />
