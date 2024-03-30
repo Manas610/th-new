@@ -24,7 +24,7 @@ function AccordionTH() {
         <Accordion.Title>Works On Customer Statisfaction</Accordion.Title>
         <Accordion.Content>
           <p className="mb-2 text-gray-500 dark:text-gray-400">
-          At our company, customer satisfaction is our top priority. We strive to exceed our clients' expectations and we are dedicated to providing 
+          At our company, customer satisfaction is our top priority. We strive to exceed our clients&apos; expectations and we are dedicated to providing 
           a personalized and responsive service to ensure their complete satisfaction.
           </p>
         </Accordion.Content>
