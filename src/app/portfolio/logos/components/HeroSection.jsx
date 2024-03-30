@@ -3,7 +3,7 @@ import { Playfair_Display } from "next/font/google"
 
 const playfair_display = Playfair_Display({ subsets: ['latin'] })
 
-function HeroSection({name}) {
+function HeroSection({name , image1}) {
   return (
     <div>
         <div className="mt-48 mb-56">
@@ -32,7 +32,7 @@ function HeroSection({name}) {
                 >
                     <Image
                         className="heroSectionPic"
-                        src="/images/big_ben.jpeg"
+                        src={image1}
                         alt="Big Ben"
                         layout="fixed"
                         width={140}

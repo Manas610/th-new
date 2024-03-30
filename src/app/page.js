@@ -14,7 +14,7 @@ export default function Home() {
         </div>
         <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 pb-32 md:mx-16">
           <div>
-            <Image className="heroSectionPic" src="/images/laptop.jpeg" alt="Hero pic 2" width={800} height={800} />
+            <Image className="rounded-full" src="/images/home/tycoon-office-2.jpeg" alt="Hero pic 2" width={800} height={800} />
           </div>
           <div>
             <span className="bg-red-100 p-1 rounded md:px-6 text-red-700 font-medium my-4">About Tycoon Hamlet</span>
