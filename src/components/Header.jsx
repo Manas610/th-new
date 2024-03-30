@@ -12,7 +12,7 @@ function HeaderTH() {
   return (
     <Navbar fluid className="py-4 fixed top-0 left-0 right-0 z-50 glassmorphism navbar bottom-shadow" >
       <Navbar.Brand href="/" className="text-black lg:pl-16 dark:text-white">
-        <Image src="/images/logo/th_round_logo.png" alt="Tycoon Hamlet Logo" width={35} height={35}/>
+        <Image src="/images/logo/logo_dark.png" alt="Tycoon Hamlet Logo" width={35} height={35}/>
         <span className="self-center whitespace-nowrap text-xl font-semibold px-4">Tycoon Hamlet</span>
       </Navbar.Brand>
       <div className="flex md:order-2 lg:pr-16">
