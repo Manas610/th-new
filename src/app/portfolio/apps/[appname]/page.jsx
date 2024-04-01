@@ -11,7 +11,7 @@ const page = ({params}) => {
     }
 
   return (
-    <div>
+    <>
         <div className="mt-32">
             <div className="grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3 bg-teal-400 h-auto md:m-16 m-8 rounded-md text-white shadow-lg">
                 <div className="lg:col-span-5 md:col-span-3 sm:col-span-2 md:ml-24 ml-8 sm:mx-auto flex flex-col justify-center">
@@ -24,9 +24,9 @@ const page = ({params}) => {
             </div>
         </div>
 
-        <div className="sm:grid md:grid-cols-3 sm:grid-cols-2 gap-8 my-32 lg:mx-24 px-8 flex flex-col">
+        <div className="sm:grid lg:grid-cols-3 md:grid-cols-2 gap-8 my-32 lg:mx-24 mx-4 md:p-16 p-4 rounded-lg bg-white flex flex-col border-2">
 
-            <div className="md:col-span-2 sm:col-span-1 items-start sm:mx-8">
+            <div className="lg:col-span-2 md:col-span-1 items-start sm:mx-8">
                 <span className="text-4xl font-semibold">Features</span>
                 <ul className="list-disc pl-8 pt-8">
                     {app.features.map( (list , index) => (
@@ -35,7 +35,7 @@ const page = ({params}) => {
                 </ul>
             </div>
             <div className="space-y-6 mx-auto">
-                <div className="rounded-md shadow-lg bg-white border-slate-800 inline-block py-4 px-16">
+                <div className="rounded-md shadow-four bg-white border-slate-800 inline-block py-4 px-16">
                     <Rating rating={app.rating} />
                 </div>
                 <div className="block">
@@ -72,13 +72,13 @@ const page = ({params}) => {
             <div className="sm:px-16 px-4 py-8 border border-slate-600 rounded-md bg-white sm:mx-auto">
                 <div className="sm:text-4xl text-2xl font-bold">Join Updates</div>
                 <div className="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, doloribus.</div>
-                <form className="flex flex-row space-x-8 gap-8">
+                <form className="flex flex-row space-x-8 sm:gap-8 gap-1">
                     <input className="rounded-lg border-black border sm:w-96 w-auto" placeholder=" Your Email" />
                     <button className="bg-red-500 px-8 py-2 rounded-full text-white">Join</button>
                 </form>
             </div>
         </div>
-    </div>
+    </>
   )
 }
 

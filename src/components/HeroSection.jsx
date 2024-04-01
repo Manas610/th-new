@@ -9,7 +9,7 @@ function HeroSection() {
     <div className="min-h-screen grid gap-4 sm:grid-cols-2 pt-12">
         <div className="justify-center items-center flex flex-col md:p-12 py-12">
             <div>
-                <h1 className="text-6xl font-bold leading-tight px-4 pb-8">Elevate your brand with a Custom Website</h1>
+                <h1 className="md:text-6xl text-4xl font-bold leading-tight px-4 pb-8">Elevate your brand with a Custom Website</h1>
                 <p className="pl-4 text-lg text-slate-500">Unleash the power of web for your business with our innovative web solutions and our best in class digital sevices</p>
             </div>
             <Link href="https://tycoonhamlet.com" target='_blank' className="mt-8">

@@ -14,9 +14,9 @@ export default function Home() {
         </div>
         <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 pb-32 md:mx-16">
           <div>
-            <Image className="rounded-full" src="/images/home/tycoon-office-2.jpeg" alt="Hero pic 2" width={800} height={800} />
+            <Image className="rounded-lg" src="/images/home/tycoon-office-2.jpeg" alt="Hero pic 2" width={800} height={800} />
           </div>
-          <div>
+          <div className="my-auto">
             <span className="bg-red-100 p-1 rounded md:px-6 text-red-700 font-medium my-4">About Tycoon Hamlet</span>
             <p className="my-4 font-extrabold text-black text-4xl">We Are Fully Integrated Digital Business</p>
             <p className="text-black md:pr-8 my-4 leading-6 font-sans text-justify">Our company specializes in creating stunning, 
@@ -33,15 +33,15 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="mx-16">
+        <div className="sm:mx-16">
           <ServiceSection />
         </div>
         <div className="grid gap-16 md:grid-cols-12 my-32 md:mx-16">
+          <div className="sm:col-span-5 my-auto">
+            <Image className="heroSectionPic" src="/images/laptop.jpeg" alt="Hero Pic 1" width={800} height={800} />
+          </div>
           <div className="sm:col-span-7">
             <AccordionTH />
-          </div>
-          <div className="sm:col-span-5">
-            <Image className="heroSectionPic" src="/images/laptop.jpeg" alt="Hero Pic 1" width={800} height={800} />
           </div>
         </div>
       </div>

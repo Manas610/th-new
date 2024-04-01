@@ -309,3 +309,10 @@ body {
 	text-shadow: 2px 3px 15px rgba(0,0,0,.15);
 } */
 
+@media (max-width: 640px) { 
+    .responsive-image {
+    width: 25px; /* Default width */
+    height: 25px; /* Maintain aspect ratio */
+  }
+}
+

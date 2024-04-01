@@ -12,11 +12,11 @@ function HeaderTH() {
   return (
     <Navbar fluid className="py-4 fixed top-0 left-0 right-0 z-50 glassmorphism navbar bottom-shadow" >
       <Navbar.Brand href="/" className="text-black lg:pl-16 dark:text-white">
-        <Image src="/images/logo/logo_dark.png" alt="Tycoon Hamlet Logo" width={35} height={35}/>
-        <span className="self-center whitespace-nowrap text-xl font-semibold px-4">Tycoon Hamlet</span>
+        <Image src="/images/logo/logo_dark.png" className='responsive-image' alt="Tycoon Hamlet Logo" width={35} height={35}/>
+        <span className="self-center whitespace-nowrap sm:text-xl text-sm font-semibold px-4">Tycoon Hamlet</span>
       </Navbar.Brand>
       <div className="flex md:order-2 lg:pr-16">
-          <button className="wave-button relative overflow-hidden bg-red-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline inline-block">
+          <button className="wave-button relative overflow-hidden bg-red-500 text-white font-bold sm:py-2 py-1 sm:px-4 px-2 text-sm rounded focus:outline-none focus:shadow-outline inline-block">
             Get Started
           </button>
         <Navbar.Toggle />
