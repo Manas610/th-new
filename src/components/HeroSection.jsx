@@ -18,7 +18,7 @@ function HeroSection() {
                 </button>
             </Link>
         </div>
-        <div className="relative hidden blob-container sm:block">
+        <div className="relative hidden blob-container sm:block py-8">
             <Image className="heroSectionPic" src="/images/laptop.jpeg" width={800} height={800}/>
         </div>
     </div>

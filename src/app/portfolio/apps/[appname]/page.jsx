@@ -35,7 +35,7 @@ const page = ({params}) => {
                 </ul>
             </div>
             <div className="space-y-6 mx-auto">
-                <div className="rounded-md shadow-four bg-white border-slate-800 inline-block py-4 px-16">
+                <div className="rounded-md shadow-four border-slate-800 inline-block py-4 px-16">
                     <Rating rating={app.rating} />
                 </div>
                 <div className="block">
@@ -59,12 +59,12 @@ const page = ({params}) => {
                     <div className="text-white rounded-md bg-red-500 inline-block py-2 px-8">Privacy Policy</div>
                 </div>
             </div>
-        </div>
 
-        <div className="md:px-16 px-8 pb-16">
-            <div className="text-4xl font-semibold">Description</div>
-            <div className="py-8 pr-16">{app.fdescription}</div>
-            <div className="font-semibold">For support, contact at <a href={`mailto:support@tycoonhamlet.com`}>support@tycoonhamlet.com</a></div>
+            <div className="md:px-16 px-8 pb-16 lg:col-span-3 md:col-span-2">
+                <div className="text-4xl font-semibold">Description</div>
+                <div className="py-8 sm:pr-16">{app.fdescription}</div>
+                <div className="font-semibold">For support, contact at <a href={`mailto:support@tycoonhamlet.com`}>support@tycoonhamlet.com</a></div>
+            </div>
         </div>
 
         <hr className="border"/>
