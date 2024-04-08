@@ -13,7 +13,7 @@ function HeroSection() {
                 <p className="pl-4 text-lg text-slate-500">Unleash the power of web for your business with our innovative web solutions and our best in class digital sevices</p>
             </div>
             <Link href="https://tycoonhamlet.com" target='_blank' className="mt-8">
-                <button className="wave-button relative overflow-hidden bg-red-500 text-white font-bold py-4 px-12 rounded focus:outline-none focus:shadow-outline inline-block">
+                <button className="wave-button relative overflow-hidden bg-blue-dark text-white font-bold py-4 px-12 rounded focus:outline-none focus:shadow-outline inline-block">
                     Get Started &#10132;
                 </button>
             </Link>

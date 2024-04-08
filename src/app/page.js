@@ -17,7 +17,7 @@ export default function Home() {
             <Image className="rounded-lg" src="/images/home/tycoon-office-2.jpeg" alt="Hero pic 2" width={800} height={800} />
           </div>
           <div className="my-auto">
-            <span className="bg-red-100 p-1 rounded md:px-6 text-red-700 font-medium my-4">About Tycoon Hamlet</span>
+            <span className="bg-blue-light p-1 rounded md:px-6 text-blue-dark font-medium my-4">About Tycoon Hamlet</span>
             <p className="my-4 font-extrabold text-black text-4xl">We Are Fully Integrated Digital Business</p>
             <p className="text-black md:pr-8 my-4 leading-6 font-sans text-justify">Our company specializes in creating stunning, 
             user-friendly websites that are tailored to meet the unique needs 
@@ -27,7 +27,7 @@ export default function Home() {
             delivering high-quality work and exceptional customer service. Whether {"you're"} a small startup or a large corporation, 
             we have the skills and expertise to help take your online presence to the next level.</p>
             <div className="mt-8">
-              <button className="wave-button relative overflow-hidden bg-red-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline inline-block">
+              <button className="wave-button relative overflow-hidden bg-blue-dark text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline inline-block">
                 Get Started &#10132;
               </button>
             </div>

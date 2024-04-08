@@ -16,7 +16,7 @@ function HeaderTH() {
         <span className="self-center whitespace-nowrap sm:text-xl text-sm font-semibold px-4">Tycoon Hamlet</span>
       </Navbar.Brand>
       <div className="flex md:order-2 lg:pr-16">
-          <button className="wave-button relative overflow-hidden bg-red-500 text-white font-bold sm:py-2 py-1 sm:px-4 px-2 text-sm rounded focus:outline-none focus:shadow-outline inline-block">
+          <button className="wave-button relative overflow-hidden bg-blue-dark text-white font-bold sm:py-2 py-1 sm:px-4 px-2 text-sm rounded focus:outline-none focus:shadow-outline inline-block">
             Get Started
           </button>
         <Navbar.Toggle />

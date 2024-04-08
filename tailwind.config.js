@@ -16,6 +16,13 @@ module.exports = {
       boxShadow: {
         'four': '0px 4px 5px -2px rgba(0,0,0,0.1), 0px 6px 10px 5px rgba(0,0,0,0.08)',
       },
+      colors: {
+        blue: {
+          dark: '#387fc8',
+          light: '#d7e5f4',
+          second: '#5f98d3'
+        }
+      }
     },
   },
   plugins: [

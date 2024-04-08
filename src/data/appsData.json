@@ -37,6 +37,44 @@
         "description":"ScoreKeeper is the ultimate solution for tracking scores in any game or sport.",
         "fdescription": "ScoreKeeper is the ultimate solution for tracking scores in any game or sport. Easy to use, it allows users to set up games quickly and keep score with a simple interface. Supports multiple players and teams, making it perfect for gatherings, tournaments, and casual play. Users can customize game rules, save game histories, and view detailed statistics. Whether you're playing board games, sports, or card games, ScoreKeeper makes scoring easy and fun.",
         "photo_path": "/images/app/scorekeeper.png"
+      },
+      {
+        "title": "AadhaarBook",
+        "rating": 4.0,
+        "progress": "Published",
+        "features": [
+          "Feature 1 for AadhaarBook",
+          "Feature 2 for AadhaarBook",
+          "Feature 3 for AadhaarBook",
+          "Feature 4 for AadhaarBook",
+          "Feature 5 for AadhaarBook",
+          "Feature 6 for AadhaarBook",
+          "Feature 7 for AadhaarBook",
+          "Feature 8 for AadhaarBook"
+        ],
+        "tags":["information" , "management"],
+        "description":"ScoreKeeper is the ultimate solution for tracking scores in any game or sport.",
+        "fdescription": "ScoreKeeper is the ultimate solution for tracking scores in any game or sport. Easy to use, it allows users to set up games quickly and keep score with a simple interface. Supports multiple players and teams, making it perfect for gatherings, tournaments, and casual play. Users can customize game rules, save game histories, and view detailed statistics. Whether you're playing board games, sports, or card games, ScoreKeeper makes scoring easy and fun.",
+        "photo_path": "/images/app/aadhaar_book.png"
+      },
+      {
+        "title": "InstantBiller",
+        "rating": 4.0,
+        "progress": "Published",
+        "features": [
+          "Feature 1 for InstantBiller",
+          "Feature 2 for InstantBiller",
+          "Feature 3 for InstantBiller",
+          "Feature 4 for InstantBiller",
+          "Feature 5 for InstantBiller",
+          "Feature 6 for InstantBiller",
+          "Feature 7 for InstantBiller",
+          "Feature 8 for InstantBiller"
+        ],
+        "tags":["billing" , "management"],
+        "description":"ScoreKeeper is the ultimate solution for tracking scores in any game or sport.",
+        "fdescription": "ScoreKeeper is the ultimate solution for tracking scores in any game or sport. Easy to use, it allows users to set up games quickly and keep score with a simple interface. Supports multiple players and teams, making it perfect for gatherings, tournaments, and casual play. Users can customize game rules, save game histories, and view detailed statistics. Whether you're playing board games, sports, or card games, ScoreKeeper makes scoring easy and fun.",
+        "photo_path": "/images/app/instant_biller.png"
       }
     ]
   }

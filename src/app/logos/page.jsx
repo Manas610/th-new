@@ -1,4 +1,4 @@
-import ServiceSection from "@/app/portfolio/logos/components/ServiceSection";
+import ServiceSection from "@/app/logos/components/ServiceSection";
 import HeroSection from "./components/HeroSection";
 import servicedata from "@/data/serviceData.json"
 

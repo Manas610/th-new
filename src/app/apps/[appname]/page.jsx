@@ -1,4 +1,5 @@
 import { redirect } from "next/navigation"
+import Link from "next/link" 
 import Rating from "../components/Rating"
 import appsData from "@/data/appsData.json"
 
@@ -9,6 +10,8 @@ const page = ({params}) => {
     if (!app) {  
         redirect('/portfolio/apps')
     }
+
+    const url = `/apps/privacy-policy/${encodeURIComponent(app.title)}`; 
 
   return (
     <>
@@ -55,9 +58,11 @@ const page = ({params}) => {
                 <div className="block">
                     <div className="text-white rounded-md bg-red-500 inline-block py-2 px-8">Download</div>
                 </div>
-                <div className="block">
-                    <div className="text-white rounded-md bg-red-500 inline-block py-2 px-8">Privacy Policy</div>
-                </div>
+                    <div className="block">
+                    <Link href={url}>
+                        <div className="text-white rounded-md bg-red-500 inline-block py-2 px-8">Privacy Policy</div>
+                    </Link>
+                    </div>
             </div>
 
             <div className="md:px-16 px-8 pb-16 lg:col-span-3 md:col-span-2">

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Card({ title, description , image }) {
 
-  const url = `/portfolio/apps/${encodeURIComponent(title)}`;
+  const url = `/apps/${encodeURIComponent(title)}`;
 
     return (
       <div className="bg-white hover:shadow-xl hover:shadow-slate-200 rounded-lg overflow-hidden">
