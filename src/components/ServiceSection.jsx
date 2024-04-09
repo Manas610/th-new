@@ -8,7 +8,7 @@ function ServiceSection() {
   return (
     <div className="mb-12">
         <div className="flex justify-center pb-8">
-            <span className="font-medium p-1 px-6 text-center text-red-700 bg-red-100 rounded inline-block">
+            <span className="font-medium p-1 px-6 text-center text-blue-dark bg-blue-light rounded inline-block">
                 Our Services
             </span>
         </div>
@@ -28,7 +28,7 @@ function ServiceSection() {
                     </div>
                 </div>
                 <div className="flex flex-col text-center pt-4 font-semibold text-lg">Web Development</div>
-                <div><p className="p-8 text-slate-700">
+                <div><p className="p-8 text-slate-600">
                 We design and develop mobile apps that are user-friendly and visually appealing
                  to give a seamless experience to the users.
                 </p></div>
@@ -50,7 +50,7 @@ function ServiceSection() {
                     </div>
                 </div>
                 <div className="flex flex-col text-center pt-4 font-semibold text-lg">App Development</div>
-                <div><p className="p-8 text-slate-700">
+                <div><p className="p-8 text-slate-600">
                 We design and develop mobile apps that are user-friendly and visually appealing
                  to give a seamless experience to the users.
                 </p></div>
@@ -72,7 +72,7 @@ function ServiceSection() {
                     </div>
                 </div>
                 <div className="flex flex-col text-center pt-4 font-semibold text-lg">Logo Designing</div>
-                <div><p className="p-8 text-slate-700">
+                <div><p className="p-8 text-slate-600">
                 We design and develop mobile apps that are user-friendly and visually appealing
                  to give a seamless experience to the users.
                 </p></div>

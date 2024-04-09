@@ -19,7 +19,7 @@ export default function Home() {
           <div className="my-auto">
             <span className="bg-blue-light p-1 rounded md:px-6 text-blue-dark font-medium my-4">About Tycoon Hamlet</span>
             <p className="my-4 font-extrabold text-black text-4xl">We Are Fully Integrated Digital Business</p>
-            <p className="text-black md:pr-8 my-4 leading-6 font-sans text-justify">Our company specializes in creating stunning, 
+            <p className="text-slate-600 md:pr-8 my-4 leading-6 font-sans text-justify">Our company specializes in creating stunning, 
             user-friendly websites that are tailored to meet the unique needs 
             of our clients. We offer a wide range of web development services, including website design, e-commerce development, 
             and custom web application development. Our team of experienced developers and designers work closely with clients 

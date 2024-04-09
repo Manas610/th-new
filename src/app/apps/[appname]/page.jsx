@@ -13,6 +13,9 @@ const page = ({params}) => {
 
     const url = `/apps/privacy-policy/${encodeURIComponent(app.title)}`; 
 
+    const bgColors = ['bg-red-50', 'bg-green-50', 'bg-blue-50', 'bg-yellow-50'];
+    const textColors = ['text-red-500', 'text-green-500', 'text-blue-500', 'text-yellow-500'];
+
   return (
     <>
         <div className="mt-32">
@@ -27,7 +30,7 @@ const page = ({params}) => {
             </div>
         </div>
 
-        <div className="sm:grid lg:grid-cols-3 md:grid-cols-2 gap-8 my-32 lg:mx-24 mx-4 md:p-16 p-4 rounded-lg bg-white flex flex-col border-2">
+        <div className="sm:grid lg:grid-cols-3 md:grid-cols-2 gap-8 my-24 lg:mx-24 mx-4 md:p-16 p-4 rounded-lg bg-white flex flex-col border-2">
 
             <div className="lg:col-span-2 md:col-span-1 items-start sm:mx-8">
                 <span className="text-4xl font-semibold">Features</span>
@@ -38,7 +41,7 @@ const page = ({params}) => {
                 </ul>
             </div>
             <div className="space-y-6 mx-auto">
-                <div className="rounded-md shadow-four border-slate-800 inline-block py-4 px-16">
+                <div className="rounded-md shadow-four inline-block py-4 px-16">
                     <Rating rating={app.rating} />
                 </div>
                 <div className="block">
@@ -47,11 +50,14 @@ const page = ({params}) => {
                 <div className="flex flex-col"> 
                     <span className="mb-2">Tags:</span> 
                     <div className="flex flex-wrap gap-2">
-                        {app.tags.map((tag, index) => (
-                        <div key={index} className="bg-slate-400 rounded-lg px-2 text-white py-1 inline-block"> 
-                            {tag}
-                        </div>
-                        ))}
+                        {app.tags.map((tag, index) => {
+                            const bgColor = bgColors[index % 4];
+                            const textColor = textColors[index % 4];
+                            return (
+                                <div key={index} className={`${bgColor} ${textColor} rounded-2xl px-2 py-1 inline-block`}> 
+                                    {tag}
+                                </div>
+                            )})}
                     </div>
                 </div>
 
@@ -73,8 +79,8 @@ const page = ({params}) => {
         </div>
 
         <hr className="border"/>
-        <div className="flex flex-col justify-center items-center my-16">
-            <div className="sm:px-16 px-4 py-8 border border-slate-600 rounded-md bg-white sm:mx-auto">
+        <div className="my-16">
+            <div className="sm:mx-24 py-16 rounded-md bg-white sm:px-16 flex flex-col justify-center items-center border-2">
                 <div className="sm:text-4xl text-2xl font-bold">Join Updates</div>
                 <div className="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, doloribus.</div>
                 <form className="flex flex-row space-x-8 sm:gap-8 gap-1">
