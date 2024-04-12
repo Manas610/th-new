@@ -6,7 +6,7 @@ function page() {
   return (
     <div>
       <div className="min-h-screen">
-        <HeroSection name="LOGO -" image1={"/images/big_ben.jpeg"} image2={"/images/big_ben.jpeg"}/>
+        <HeroSection name="LOGO -" image1={"/images/logo/hero_1.png"} image2={"/images/logo/hero_2.png"}/>
         <div className="mx-16 my-16">
           <span className="text-4xl font-semibold lg:text-5xl underline underline-offset-8 lg:underline-offset-[16px]">
             Our Recent Project

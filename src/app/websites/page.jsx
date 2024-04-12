@@ -15,7 +15,7 @@ const page = () => {
                     <div className="p-4">
                         <h2 className="text-2xl font-bold mb-2">Card Title {card}</h2>
                         <p className="mb-4">This is a description for the card. It&apos;s more detailed and can span multiple lines.</p>
-                        <a href="#" className="inline-block bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-700 transition-colors">Visit</a>
+                        <a href="#" className="inline-block bg-blue-dark text-white px-6 py-2 rounded">Visit</a>
                     </div>
                 </div>
             ))}

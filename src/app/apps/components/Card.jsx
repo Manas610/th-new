@@ -5,10 +5,10 @@ function Card({ title, description , image }) {
   const url = `/apps/${encodeURIComponent(title)}`;
 
     return (
-      <div className="bg-white hover:shadow-xl hover:shadow-slate-200 rounded-lg overflow-hidden sm:h-72">
+      <div className="bg-white hover:shadow-xl hover:shadow-slate-200 rounded-lg overflow-hidden sm:h-auto">
         <div className="grid sm:grid-cols-5 gap-4">
-          <div className="sm:col-span-2 flex flex-col justify-center items-center rounded-lg h-72">
-            <div className="p-8 rounded-lg bg-sky-100">
+          <div className="sm:col-span-2 flex flex-col justify-center items-center rounded-lg h-auto">
+            <div className="m-4 p-8 rounded-lg bg-sky-100">
               <img src={image} alt="App Logo" className="w-40 h-40 object-contain" />
             </div>
           </div>
@@ -19,7 +19,7 @@ function Card({ title, description , image }) {
             </div>
             <div>
               <Link href={url}>
-                <button className="mt-4 mb-6 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">Read More</button>
+                <button className="mt-4 mb-6 bg-blue-dark text-white px-4 py-2 rounded">Read More</button>
               </Link>
             </div>
           </div>

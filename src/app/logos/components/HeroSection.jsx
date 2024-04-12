@@ -33,13 +33,12 @@ function HeroSection({name , image1 ,image2}) {
                     <Image
                         className="heroSectionPic"
                         src={image1}
-                        alt="Big Ben"
+                        alt="Hero 1"
                         layout="fixed"
                         width={140}
                         height={200}
                     />
                 </div>
-                {/* <span className="lg:text-7xl md:text-5xl 2xl text-white">{name} PORTFOLIO</span> */}
                 <div
                 className="absolute"
                 style={{
@@ -51,7 +50,7 @@ function HeroSection({name , image1 ,image2}) {
                     <Image
                         className="heroSectionPic"
                         src={image2}
-                        alt="Big Ben"
+                        alt="Hero 2"
                         layout="fixed"
                         width={300}
                         height={200}
