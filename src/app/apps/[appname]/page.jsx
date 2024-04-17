@@ -8,7 +8,7 @@ const page = ({params}) => {
     const app = appsData.apps.find(a => a.title.toLowerCase() === params.appname.toLowerCase());
 
     if (!app) {  
-        redirect('/portfolio/apps')
+        redirect('/apps')
     }
 
     const url = `/apps/privacy-policy/${encodeURIComponent(app.title)}`; 
