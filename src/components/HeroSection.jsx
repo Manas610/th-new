@@ -3,6 +3,7 @@
 import '@/css/button.css'
 import Link from 'next/link'
 import { TbBrandAppgallery } from 'react-icons/tb';
+import Image from "next/image";
 
 function HeroSection() {
   return (
@@ -24,16 +25,43 @@ function HeroSection() {
         <div className="relative blob-container hidden sm:block py-8">
             <div className="z-10 relative">
                 <div className="grid sm:grid-cols-2 grid-cols-1 gap-4">
-                    {[1, 2, 3, 4].map((item, index) => (
-                        <div key={index} className="rounded-lg shadow-md overflow-hidden group cursor-pointer">
+                        
+                        <div className="rounded-lg shadow-md overflow-hidden group cursor-pointer">
                             <div className="flex justify-center items-center h-48 bg-white group-hover:bg-blue-dark transition-colors duration-500">
-                                <TbBrandAppgallery className="text-6xl text-black group-hover:text-white" />
+                                <span className="text-8xl text-black group-hover:text-white">6+</span>
                             </div>
                             <div className="p-4 bg-white group-hover:bg-blue-dark transition-colors duration-500">
-                                <p className="text-xl font-semibold text-black group-hover:text-white flex justify-center">Card {item}</p>
+                                <p className="text-xl font-semibold text-black group-hover:text-white flex justify-center">Applications</p>
                             </div>
                         </div>
-                    ))}
+
+                        <div className="rounded-lg shadow-md overflow-hidden group cursor-pointer">
+                            <div className="flex justify-center items-center h-48 bg-white group-hover:bg-blue-dark transition-colors duration-500">
+                                <Image src="/images/home/graph1.png" width={150} height={150}/>
+                            </div>
+                            <div className="p-4 bg-white group-hover:bg-blue-dark transition-colors duration-500">
+                                <p className="text-xl font-semibold text-black group-hover:text-white flex justify-center">Growth</p>
+                            </div>
+                        </div>
+
+                        <div className="rounded-lg shadow-md overflow-hidden group cursor-pointer">
+                            <div className="flex justify-center items-center h-48 bg-white group-hover:bg-blue-dark transition-colors duration-500">
+                                <Image src="/images/home/digital.png" width={200} height={200}/>
+                            </div>
+                            <div className="p-4 bg-white group-hover:bg-blue-dark transition-colors duration-500">
+                                <p className="text-xl font-semibold text-black group-hover:text-white flex justify-center">Digital Presence</p>
+                            </div>
+                        </div>
+
+                        <div className="rounded-lg shadow-md overflow-hidden group cursor-pointer">
+                            <div className="flex justify-center items-center h-48 bg-white group-hover:bg-blue-dark transition-colors duration-500">
+                                <span className="text-8xl text-black group-hover:text-white">10+</span>
+                            </div>
+                            <div className="p-4 bg-white group-hover:bg-blue-dark transition-colors duration-500">
+                                <p className="text-xl font-semibold text-black group-hover:text-white flex justify-center">Websites</p>
+                            </div>
+                        </div>
+
                 </div>
             </div>
             <div className="absolute top-0 left-0 w-full h-full -z-10"></div>

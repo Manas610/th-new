@@ -38,7 +38,7 @@ export default function Home() {
         </div>
         <div className="grid gap-16 md:grid-cols-12 my-32 md:mx-16">
           <div className="sm:col-span-5 my-auto">
-            <Image className="heroSectionPic" src="/images/laptop.jpeg" alt="Hero Pic 1" width={800} height={800} />
+            <Image className="heroSectionPic" src="/images/home/accordian.png" alt="Hero Pic 1" width={800} height={800} />
           </div>
           <div className="sm:col-span-7">
             <AccordionTH />
