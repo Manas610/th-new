@@ -2,7 +2,6 @@
 
 import '@/css/button.css'
 import Link from 'next/link'
-import { TbBrandAppgallery } from 'react-icons/tb';
 import Image from "next/image";
 
 function HeroSection() {

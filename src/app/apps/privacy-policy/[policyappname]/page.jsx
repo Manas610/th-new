@@ -20,7 +20,7 @@ function page({params}) {
           <div className="py-8">
             <span className="text-2xl font-semibold">Information Collection and Use</span>
             <p className="pt-8 text-slate-600">{app.informationCollection.data}</p>
-            {app.informationCollection.links.map((link => <a className="text-blue-600" href={link.url}>{link.name}</a>))}
+            {app.informationCollection.links.map(((link , index) => <a key={index} className="text-blue-600" href={link.url}>{link.name}</a>))}
           </div>
           <div className="py-8">
             <span className="text-2xl font-semibold">Log Data</span>
@@ -32,7 +32,7 @@ function page({params}) {
           </div>
           <div className="py-8">
             <span className="text-2xl font-semibold">Service Providers</span>
-            <p className="pt-8 text-slate-600">{app.serviceProviders.reasons.map(reason => <p>{reason}</p>)}</p>
+            <p className="pt-8 text-slate-600">{app.serviceProviders.reasons.map((reason , index) => <p key={index}>{reason}</p>)}</p>
             <p className="pb-8 text-slate-600">{app.serviceProviders.data}</p>
           </div>
           <div className="py-8">
