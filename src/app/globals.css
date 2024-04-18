@@ -324,3 +324,30 @@ body {
   color: #5f98d3;
 }
 
+
+.animated-image {
+  transform: translateY(-100%); 
+  animation: slideDown 1s forwards; 
+}
+@keyframes slideDown {
+  from {
+      transform: translateY(-100%); 
+  }
+  to {
+      transform: translateY(0); 
+  }
+}
+
+.animated-div {
+  transform: translateX(-100%); 
+  animation: slideright 1s forwards; 
+}
+@keyframes slideright {
+  from {
+      transform: translateX(-100%); 
+  }
+  to {
+      transform: translateX(0); 
+  }
+}
+
