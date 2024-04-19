@@ -17,18 +17,18 @@ function ServiceSection() {
                 The Range of Services That we Provide
             </p>
         </div>  
-        <div className="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 lg:gap-24 gap-8 lg:m-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 lg:gap-16 gap-8">
 
         {/* website card */}
 
-            <div className="bg-sky-100 inline-block w-auto rounded-lg h-auto hover:shadow-xl hover:shadow-slate-200">
+            <div className="bg-sky-100 inline-block w-auto rounded-2xl h-auto hover:shadow-xl hover:shadow-slate-200">
                 <div className="my-8">
                     <div className="flex justify-center relative blob-container-sm-web">
                         <FaLaptop className="text-5xl mx-auto z-10 text-white" />
                     </div>
                 </div>
                 <div className="flex flex-col text-center pt-4 font-semibold text-lg">Web Development</div>
-                <div><p className="p-8 text-slate-600">
+                <div><p className="p-8 text-slate-600 text-justify">
                 We design and develop mobile apps that are user-friendly and visually appealing
                  to give a seamless experience to the users.
                 </p></div>
@@ -43,14 +43,14 @@ function ServiceSection() {
 
             {/* app card */}
 
-            <div className="bg-red-100 inline-block w-auto rounded-lg h-auto hover:shadow-xl hover:shadow-slate-200">
+            <div className="bg-red-100 inline-block w-auto rounded-2xl h-auto hover:shadow-xl hover:shadow-slate-200">
                 <div className="my-8">
                     <div className="flex justify-center relative blob-container-sm-app">
                         <AiOutlineMobile className="text-5xl mx-auto z-10 text-white"/>
                     </div>
                 </div>
                 <div className="flex flex-col text-center pt-4 font-semibold text-lg">App Development</div>
-                <div><p className="p-8 text-slate-600">
+                <div><p className="p-8 text-slate-600 text-justify">
                 We design and develop mobile apps that are user-friendly and visually appealing
                  to give a seamless experience to the users.
                 </p></div>
@@ -65,14 +65,14 @@ function ServiceSection() {
 
             {/* logo card */}
 
-            <div className="bg-green-100 inline-block w-auto rounded-lg h-auto hover:shadow-xl hover:shadow-slate-200">
+            <div className="bg-green-100 inline-block w-auto rounded-2xl h-auto hover:shadow-xl hover:shadow-slate-200">
                 <div className="my-8">
                     <div className="flex justify-center relative blob-container-sm-logo">
                         <TbBrandItch className="text-5xl mx-auto z-10 text-white"/>
                     </div>
                 </div>
                 <div className="flex flex-col text-center pt-4 font-semibold text-lg">Logo Designing</div>
-                <div><p className="p-8 text-slate-600">
+                <div><p className="p-8 text-slate-600 text-justify">
                 We design and develop mobile apps that are user-friendly and visually appealing
                  to give a seamless experience to the users.
                 </p></div>

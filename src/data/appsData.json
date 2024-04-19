@@ -1,6 +1,7 @@
 {
     "apps": [
       {
+        "id" : "1",
         "title": "iQuote",
         "rating": 3.5,
         "progress": "Published",
@@ -20,6 +21,7 @@
         "photo_path": "/images/app/iquote.png"
       },
       {
+        "id" : "2",
         "title": "ScoreKeeper",
         "rating": 4.0,
         "progress": "Published",
@@ -39,6 +41,7 @@
         "photo_path": "/images/app/scorekeeper.png"
       },
       {
+        "id" : "3",
         "title": "AadhaarBook",
         "rating": 4.0,
         "progress": "Published",
@@ -58,6 +61,7 @@
         "photo_path": "/images/app/aadhaar_book.png"
       },
       {
+        "id" : "4",
         "title": "InstantBiller",
         "rating": 4.0,
         "progress": "Published",

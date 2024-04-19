@@ -24,13 +24,13 @@ const page = ({params}) => {
                     <div className="md:text-6xl text-4xl font-semibold">{app.title}</div>
                     <div className="md:text-xl text-lg mt-4">{app.progress} on Playstore</div>
                 </div>
-                <div className="flex flex-col justify-center items-center sm:h-auto bg-sky-100 p-4 m-4 rounded-md shadow-lg">
-                    <img src={app.photo_path} className="sm:h-auto h-32" alt="APP Logo" />
+                <div className="flex flex-col justify-center items-center sm:h-auto bg-transparent p-4 m-4">
+                    <img src={app.photo_path} className="sm:h-auto h-32 rounded-2xl" alt="APP Logo" />
                 </div>
             </div>
         </div>
 
-        <div className="sm:grid lg:grid-cols-3 md:grid-cols-2 gap-8 my-24 lg:mx-24 mx-4 md:p-16 p-4 rounded-lg bg-white flex flex-col border-2">
+        <div className="sm:grid lg:grid-cols-3 md:grid-cols-2 gap-8 my-16 lg:mx-24 mx-4 md:p-16 p-4 rounded-lg bg-white flex flex-col">
 
             <div className="lg:col-span-2 md:col-span-1 items-start sm:mx-8">
                 <span className="text-4xl font-semibold">Features</span>
@@ -41,7 +41,7 @@ const page = ({params}) => {
                 </ul>
             </div>
             <div className="space-y-6 mx-auto">
-                <div className="rounded-md shadow-four inline-block py-4 px-16">
+                <div className="rounded-2xl shadow-four inline-block py-4 px-16">
                     <Rating rating={app.rating} />
                 </div>
                 <div className="block">
@@ -78,13 +78,12 @@ const page = ({params}) => {
             </div>
         </div>
 
-        <hr className="border"/>
-        <div className="my-16">
-            <div className="sm:mx-24 py-16 rounded-md bg-white sm:px-16 flex flex-col justify-center items-center border-2">
+        <div className="my-8">
+            <div className="md:mx-24 sm:mx-16 mx-4 py-16 rounded-md bg-white sm:px-16 flex flex-col justify-center items-center">
                 <div className="sm:text-4xl text-2xl font-bold">Join Updates</div>
-                <div className="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, doloribus.</div>
-                <form className="flex flex-row space-x-8 sm:gap-8 gap-1">
-                    <input className="rounded-lg border-black border sm:w-96 w-auto" placeholder=" Your Email" />
+                <div className="my-4 mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, doloribus.</div>
+                <form className="flex flex-row space-x-8 md:gap-8 sm:gap-4 gap-1">
+                    <input className="rounded-lg border-black border sm:w-80 md:w-96 w-auto" placeholder=" Your Email" />
                     <button className="bg-red-500 px-8 py-2 rounded-full text-white">Join</button>
                 </form>
             </div>

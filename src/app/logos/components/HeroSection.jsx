@@ -7,17 +7,17 @@ function HeroSection({name , image1 ,image2}) {
   return (
     <div>
         <div className="mt-48 mb-56">
-            <div className="flex justify-center items-center relative h-80 text-center rounded-lg">
+            <div className="flex justify-center items-center relative h-80 text-center">
 
-            <div className="container rounded-lg md:rounded-none">
-            <div className="blob-c">
-            <div className="shape-blob"></div>
-            <div className="shape-blob one"></div>
-            <div className="shape-blob two"></div>
-            <div className="shape-blob three"></div>
-            <div className="shape-blob four"></div>
-            <div className="shape-blob five"></div>
-            <div className="shape-blob six"></div>
+                <div className="container rounded-3xl lg:rounded-none">
+                <div className="blob-c">
+                <div className="shape-blob"></div>
+                <div className="shape-blob one"></div>
+                <div className="shape-blob two"></div>
+                <div className="shape-blob three"></div>
+                <div className="shape-blob four"></div>
+                <div className="shape-blob five"></div>
+                <div className="shape-blob six"></div>
             </div>
             <h1 className={`${playfair_display} text-white text-6xl tracking-wide font-extrabold z-10 drop-shadow-md`}>{name} PORTFOLIO</h1>
             </div>
