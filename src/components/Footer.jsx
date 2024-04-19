@@ -20,7 +20,7 @@ function FooterTH() {
               width={142}
               height={50}
             />
-            <p className='py-8 w-2/3'>Elevate and take your Business to the next level with our best quality Digital Products and Services</p>
+            <p className="py-8 w-2/3 text-justify">Elevate and take your Business to the next level with our best quality Digital Products and Services</p>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>
