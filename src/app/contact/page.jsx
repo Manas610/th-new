@@ -4,7 +4,7 @@ function page() {
       
       <div className="my-32">
         <div className="bg-orange-400 h-72 flex flex-col justify-center items-center">
-            <span className="text-white text-7xl">Contact Us</span>
+            <span className="text-white text-7xl font-semibold">Contact Us</span>
         </div>
       </div>
 

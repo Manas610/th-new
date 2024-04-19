@@ -9,7 +9,7 @@ function HeroSection({name , image1 ,image2}) {
         <div className="mt-48 mb-56">
             <div className="flex justify-center items-center relative h-80 text-center">
 
-                <div className="container rounded-3xl lg:rounded-none">
+                <div className="container rounded-3xl">
                 <div className="blob-c">
                 <div className="shape-blob"></div>
                 <div className="shape-blob one"></div>
