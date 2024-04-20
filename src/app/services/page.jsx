@@ -63,7 +63,7 @@ function App() {
             </div>
             <div className="md:col-span-4 order-2 md:order-1 p-4">
               <h1 className="p-8 text-black text-2xl font-semibold">SEO (Search Engine Optimization)</h1>
-              <div className="text-justify">Visibility in search engines is crucial for any business looking to gain a competitive edge online. Our SEO services are designed to increase your website's visibility and draw more traffic by optimizing it for search engines. We employ a comprehensive range of SEO strategies, including keyword research, content optimization, link building, and technical SEO, to improve your rankings for relevant search terms. By enhancing your search engine presence, we help you attract more qualified traffic, increase conversions, and achieve long-term success in your digital marketing efforts.</div>
+              <div className="text-justify">Visibility in search engines is crucial for any business looking to gain a competitive edge online. Our SEO services are designed to increase your website&apos;s visibility and draw more traffic by optimizing it for search engines. We employ a comprehensive range of SEO strategies, including keyword research, content optimization, link building, and technical SEO, to improve your rankings for relevant search terms. By enhancing your search engine presence, we help you attract more qualified traffic, increase conversions, and achieve long-term success in your digital marketing efforts.</div>
             </div>
           </div>
 
