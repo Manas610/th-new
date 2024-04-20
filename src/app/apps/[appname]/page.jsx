@@ -2,6 +2,7 @@ import { redirect } from "next/navigation"
 import Link from "next/link" 
 import Rating from "../components/Rating"
 import appsData from "@/data/appsData.json"
+import Image from "next/image"
 
 const page = ({params}) => {
 
@@ -45,7 +46,8 @@ const page = ({params}) => {
                     <Rating rating={app.rating} />
                 </div>
                 <div className="block">
-                    <div className="text-white rounded-md bg-red-500 inline-block py-2 px-8">View on playstore</div>
+                    {/* <div className="text-white rounded-md bg-red-500 inline-block py-2 px-8">View on playstore</div> */}
+                    <Image src={"/images/app/google-play-badge.png"} width={250} height={250} />
                 </div>
                 <div className="flex flex-col"> 
                     <span className="mb-2">Tags:</span> 
@@ -62,12 +64,14 @@ const page = ({params}) => {
                 </div>
 
                 <div className="block">
-                    <div className="text-white rounded-md bg-red-500 inline-block py-2 px-8">Download</div>
+                    <a href="/images/forest.jpg" download>
+                        <button type="button" className="text-white rounded-md bg-red-500 inline-block py-2 px-8">Download</button>
+                    </a>
                 </div>
                     <div className="block">
-                    <Link href={url}>
-                        <div className="text-white rounded-md bg-red-500 inline-block py-2 px-8">Privacy Policy</div>
-                    </Link>
+                        <Link href={url}>
+                            <div className="text-white rounded-md bg-red-500 inline-block py-2 px-8">Privacy Policy</div>
+                        </Link>
                     </div>
             </div>
 

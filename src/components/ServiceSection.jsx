@@ -12,10 +12,10 @@ function ServiceSection() {
                 Our Services
             </span>
         </div>
-        <div className="mb-16">
-            <p className="flex flex-col text-center text-4xl font-bold">
-                The Range of Services That we Provide
-            </p>
+        <div className="mb-16 flex flex-col text-center ">
+            <span className="text-4xl font-bold">
+                The Range of <span className="underline-main">Services</span> That we Provide
+            </span>
         </div>  
         <div className="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 lg:gap-16 gap-8">
 
