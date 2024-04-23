@@ -20,7 +20,7 @@ function page() {
                 </div>
                 <div className="col-span-1 text-justify">
                     <span>We understand that every client is unique and we work closely with them to understand their goals and create solutions that will help them achieve success online.</span><br/><br/>
-                    <span>Whether you're a small startup or a large corporation, we have the skills and expertise to help take your online presence to the next level. We are dedicated to providing a personalized and responsive service to ensure our clients complete satisfaction.</span><br/>
+                    <span>Whether you&apos;re a small startup or a large corporation, we have the skills and expertise to help take your online presence to the next level. We are dedicated to providing a personalized and responsive service to ensure our clients complete satisfaction.</span><br/>
                 </div>
             </div>
         </div>
