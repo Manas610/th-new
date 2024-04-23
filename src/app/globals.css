@@ -361,3 +361,31 @@ body {
 .underline-main:hover {
   background-size: 100% 88%;
 }
+
+.sevice-card-hover-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.sevice-card-hover-effect::before {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1e40af; /* Replace with your 'bg-blue-dark' color code */
+  transition: top 0.5s ease-in-out;
+  z-index: 0;
+}
+
+.sevice-card-hover-effect:hover::before {
+  top: 0;
+}
+
+.sevice-card-hover-effect > * {
+  position: relative;
+  z-index: 1;
+}
+
+
