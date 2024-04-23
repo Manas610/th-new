@@ -61,7 +61,7 @@ function page() {
                     </div>
                     <div className="flex flex-col text-center pt-4 font-semibold text-lg">Fast and Flexible Support</div>
                     <div><p className="p-8 group-hover:text-white text-slate-600 text-justify">
-                        We provide fast and flexible support to ensure that our clients' needs are met in a timely manner.
+                        We provide fast and flexible support to ensure that our clients&apos; needs are met in a timely manner.
                     </p></div>
                 </div>
             </div>
