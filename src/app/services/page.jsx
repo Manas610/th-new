@@ -53,7 +53,7 @@ function App() {
             </div>
             <div className="col-span-4 p-4">
               <h1 className="p-8 text-black text-2xl font-semibold">Logo Design</h1>
-              <div className="text-justify">A logo is more than just a graphic; it is a representation of your brand&apos;s identity and values. Our logo design service is committed to creating distinctive and memorable logos that resonate with your target audience. We start with a thorough understanding of your brand, market, and objectives, and then move through a creative process that blends artistry with strategy. The result is a bespoke logo that not only stands out visually but also conveys your brand&apos;s unique voice and essence, enhancing brand recognition and trust.</div>
+              <div className="text-justify">A logo is more than just a graphic, it is a representation of your brand&apos;s identity and values. Our logo design service is committed to creating distinctive and memorable logos that resonate with your target audience. We start with a thorough understanding of your brand, market, and objectives, and then move through a creative process that blends artistry with strategy. The result is a bespoke logo that not only stands out visually but also conveys your brand&apos;s unique voice and essence, enhancing brand recognition and trust.</div>
             </div>
           </div>
 

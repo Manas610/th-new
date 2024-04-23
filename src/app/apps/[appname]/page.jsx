@@ -31,7 +31,7 @@ const page = ({params}) => {
             </div>
         </div>
 
-        <div className="sm:grid lg:grid-cols-3 md:grid-cols-2 gap-8 my-16 lg:mx-24 mx-4 md:p-16 p-4 rounded-lg bg-white flex flex-col">
+        <div className="sm:grid lg:grid-cols-3 md:grid-cols-2 gap-8 my-16 lg:mx-24 mx-4 md:p-16 p-4 rounded-3xl bg-white flex flex-col">
 
             <div className="lg:col-span-2 md:col-span-1 items-start sm:mx-8">
                 <span className="text-4xl font-semibold">Features</span>
@@ -64,7 +64,7 @@ const page = ({params}) => {
                 </div>
 
                 <div className="block">
-                    <a href="/images/forest.jpg" download>
+                    <a href="https://github.com/Manas610/test-apk/raw/main/aadhaarBook.apk" download>
                         <button type="button" className="text-white rounded-md bg-red-500 inline-block py-2 px-8">Download</button>
                     </a>
                 </div>
@@ -83,7 +83,7 @@ const page = ({params}) => {
         </div>
 
         <div className="my-8">
-            <div className="md:mx-24 sm:mx-16 mx-4 py-16 rounded-md bg-white sm:px-16 flex flex-col justify-center items-center">
+            <div className="md:mx-24 sm:mx-16 mx-4 py-16 rounded-3xl bg-white sm:px-16 flex flex-col justify-center items-center">
                 <div className="sm:text-4xl text-2xl font-bold">Join Updates</div>
                 <div className="my-4 mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, doloribus.</div>
                 <form className="flex flex-row space-x-8 md:gap-8 sm:gap-4 gap-1">

@@ -1,21 +1,37 @@
 import privacypolicyData from "@/data/privacypolicyData.json"
+import appsData from "@/data/appsData.json"
 import { redirect } from "next/navigation";
 
 function page({params}) {
 
     const app = privacypolicyData.apps.find(a => a.title.toLowerCase() === params.policyappname.toLowerCase());
 
+    const appHero = appsData.apps.find(a => a.title.toLowerCase() === params.policyappname.toLowerCase());
+
     if (!app) {  
         redirect('/apps')
     }
 
   return (
-    <div className="mx-32 my-32">
+    <>
+    <div className="mt-32">
+          <div className="grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3 bg-teal-400 h-auto md:m-16 m-8 rounded-md text-white shadow-lg">
+              <div className="lg:col-span-5 md:col-span-3 sm:col-span-2 md:ml-24 ml-8 sm:mx-auto flex flex-col justify-center">
+                  <div className="md:text-6xl text-4xl font-semibold">{appHero.title}</div>
+                  <div className="md:text-xl text-lg mt-4">{appHero.progress} on Playstore</div>
+              </div>
+              <div className="flex flex-col justify-center items-center sm:h-auto bg-transparent p-4 m-4">
+                  <img src={appHero.photo_path} className="sm:h-auto h-32 rounded-2xl" alt="APP Logo" />
+              </div>
+          </div>
+        </div>
+
+    <div className="mx-32 my-16">
       <div className="bg-green-200 px-16 rounded-3xl">
           <div className="flex flex-col items-center py-16">
             <span className="font-bold text-4xl">Privacy Policy of {app.title}</span>
           </div>
-            <hr className="border"/>
+            <hr className="border-2 border-blue-second"/>
             <p className="py-8 text-slate-600">{app.intro}</p>
           <div className="py-8">
             <span className="text-2xl font-semibold">Information Collection and Use</span>
@@ -57,6 +73,7 @@ function page({params}) {
           </div>
       </div>
     </div>
+    </>
   )
 }
 
