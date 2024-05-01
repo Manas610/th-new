@@ -13,7 +13,7 @@ function page() {
       </div>
 
     <div className="flex justify-center items-center bg-gray-100 my-16">
-      <form className="flex max-w-md flex-col gap-4 rounded-3xl border-2 p-8">
+      <form className="flex max-w-md flex-col gap-4 rounded-3xl border-2 p-8 bg-teal-50">
         <span className="font-bold">Plaese Fill the Form</span>
         <hr />
         <div>

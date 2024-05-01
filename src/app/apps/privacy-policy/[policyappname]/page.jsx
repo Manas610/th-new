@@ -26,8 +26,8 @@ function page({params}) {
           </div>
         </div>
 
-    <div className="mx-32 my-16">
-      <div className="bg-green-200 px-16 rounded-3xl">
+    <div className="lg:mx-24 md:mx-16 mx-8 my-16">
+      <div className="bg-green-200 lg:px-16 px-8 rounded-3xl">
           <div className="flex flex-col items-center py-16">
             <span className="font-bold text-4xl">Privacy Policy of {app.title}</span>
           </div>
@@ -69,7 +69,7 @@ function page({params}) {
           </div>
           <div className="pt-8 pb-8">
             <span className="text-2xl font-semibold">Contact Us</span>
-            <p className="py-8 text-slate-600">If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at support@tycoonhamlet.com.</p>
+            <p className="py-8 text-slate-600">If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at <a href={`mailto:support@tycoonhamlet.com`}>support@tycoonhamlet.com</a>.</p>
           </div>
       </div>
     </div>

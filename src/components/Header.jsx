@@ -25,7 +25,7 @@ function HeaderTH() {
         <Navbar.Link href="/" className={`text-base ${pathname === '/' ? 'active' : ''} nav-link`}>Home</Navbar.Link>
         <Navbar.Link href="/about-us" className={`text-base ${pathname === '/about-us' ? 'active' : ''} nav-link`}>About</Navbar.Link>
         <Navbar.Link href="/services" className={`text-base ${pathname === '/services' ? 'active' : ''} nav-link`}>Services</Navbar.Link>
-        <Navbar.Link href="#" className='text-base nav-link'>Pricing</Navbar.Link>
+        {/* <Navbar.Link href="#" className='text-base nav-link'>Pricing</Navbar.Link> */}
         <Navbar.Link href="/contact" className={`text-base ${pathname === '/contact' ? 'active' : ''} nav-link`}>Contact</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
