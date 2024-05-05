@@ -21,7 +21,7 @@ const page = ({params}) => {
   return (
     <>
         <div className="mt-32">
-            <div className="grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3 bg-teal-400 h-auto md:m-16 m-8 rounded-md text-white shadow-lg">
+            <div className="grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3 bg-teal-400 h-auto md:m-16 m-8 rounded-3xl text-white shadow-lg">
                 <div className="lg:col-span-5 md:col-span-3 sm:col-span-2 md:ml-24 ml-8 sm:mx-auto flex flex-col justify-center">
                     <div className="md:text-6xl text-4xl font-semibold">{app.title}</div>
                     <div className="md:text-xl text-lg mt-4">{app.progress} on Playstore</div>
@@ -88,7 +88,7 @@ const page = ({params}) => {
                 <div className="sm:text-4xl text-2xl font-bold">Join Updates</div>
                 <div className="my-4 mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, doloribus.</div>
                 <form className="flex flex-row space-x-8 md:gap-8 sm:gap-4 gap-1">
-                    <input className="rounded-lg border-black border sm:w-80 md:w-96 w-auto" placeholder=" Your Email" />
+                    <input className="rounded-full border-slate-300 border sm:w-80 md:w-96 w-auto text-center" placeholder="Your Email" />
                     <button className="bg-blue-dark px-8 py-2 rounded-full text-white">Join</button>
                 </form>
             </div>

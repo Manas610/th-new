@@ -7,6 +7,7 @@ function ServiceSection({ data }) {
             <Card
                 key={service.id}
                 title={service.title}
+                logo={service.image}
             />
             ))}
         </div>

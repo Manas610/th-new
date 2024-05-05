@@ -15,16 +15,16 @@ function page({params}) {
   return (
     <>
     <div className="mt-32">
-          <div className="grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3 bg-teal-400 h-auto md:m-16 m-8 rounded-md text-white shadow-lg">
-              <div className="lg:col-span-5 md:col-span-3 sm:col-span-2 md:ml-24 ml-8 sm:mx-auto flex flex-col justify-center">
-                  <div className="md:text-6xl text-4xl font-semibold">{appHero.title}</div>
-                  <div className="md:text-xl text-lg mt-4">{appHero.progress} on Playstore</div>
-              </div>
-              <div className="flex flex-col justify-center items-center sm:h-auto bg-transparent p-4 m-4">
-                  <img src={appHero.photo_path} className="sm:h-auto h-32 rounded-2xl" alt="APP Logo" />
-              </div>
+        <div className="grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3 bg-teal-400 h-auto md:m-16 m-8 rounded-3xl text-white shadow-lg">
+          <div className="lg:col-span-5 md:col-span-3 sm:col-span-2 md:ml-24 ml-8 sm:mx-auto flex flex-col justify-center">
+            <div className="md:text-6xl text-4xl font-semibold">{appHero.title}</div>
+            <div className="md:text-xl text-lg mt-4">{appHero.progress} on Playstore</div>
+          </div>
+          <div className="flex flex-col justify-center items-center sm:h-auto bg-transparent p-4 m-4">
+            <img src={appHero.photo_path} className="sm:h-auto h-32 rounded-2xl" alt="APP Logo" />
           </div>
         </div>
+      </div>
 
     <div className="lg:mx-24 md:mx-16 mx-8 my-16">
       <div className="bg-green-200 lg:px-16 px-8 rounded-3xl">
@@ -36,7 +36,7 @@ function page({params}) {
           <div className="py-8">
             <span className="text-2xl font-semibold">Information Collection and Use</span>
             <p className="pt-8 text-slate-600">{app.informationCollection.data}</p>
-            {app.informationCollection.links.map(((link , index) => <a key={index} className="text-blue-600" href={link.url}>{link.name}</a>))}
+            {app.informationCollection.links.map(((link , index) => <><a key={index} className="text-blue-600" href={link.url}>{link.name}</a><br/></>))}
           </div>
           <div className="py-8">
             <span className="text-2xl font-semibold">Log Data</span>

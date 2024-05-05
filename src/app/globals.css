@@ -311,8 +311,8 @@ body {
 
 @media (max-width: 640px) { 
     .responsive-image {
-    width: 25px; /* Default width */
-    height: 25px; /* Maintain aspect ratio */
+    width: 28px; /* Default width */
+    height: 28px; /* Maintain aspect ratio */
   }
 }
 

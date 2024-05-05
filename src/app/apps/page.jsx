@@ -9,7 +9,7 @@ function page() {
         <HeroSection name="APP -" image1={"/images/app/folio-app-banner1.png"} image2={"/images/app/hero-2.png"}/>
         <div className="mx-16 my-16">
           <span className="text-4xl font-semibold lg:text-5xl underline underline-offset-8 lg:underline-offset-[16px]">
-            Our Recent Project
+            Our Projects
           </span>
           <span className="lg:text-5xl text-4xl"> ✨</span>
         </div>
