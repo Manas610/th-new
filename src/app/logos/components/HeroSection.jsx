@@ -34,7 +34,6 @@ function HeroSection({name , image1 ,image2}) {
                         className="heroSectionPic"
                         src={image1}
                         alt="Hero 1"
-                        layout="fixed"
                         width={140}
                         height={200}
                     />
@@ -51,7 +50,6 @@ function HeroSection({name , image1 ,image2}) {
                         className="heroSectionPic"
                         src={image2}
                         alt="Hero 2"
-                        layout="fixed"
                         width={300}
                         height={200}
                     />

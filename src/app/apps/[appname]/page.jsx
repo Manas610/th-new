@@ -1,3 +1,4 @@
+import "@/css/button.css"
 import { redirect } from "next/navigation"
 import Link from "next/link" 
 import Rating from "../components/Rating"
@@ -65,12 +66,12 @@ const page = ({params}) => {
 
                 <div className="block">
                     <a href="https://github.com/Manas610/test-apk/raw/main/aadhaarBook.apk" download>
-                        <button type="button" className="text-white rounded-md bg-red-500 inline-block py-2 px-8">Download</button>
+                        <button type="button" className="text-white rounded-md bg-blue-dark inline-block py-2 px-8">Download</button>
                     </a>
                 </div>
                     <div className="block">
                         <Link href={url}>
-                            <div className="text-white rounded-md bg-red-500 inline-block py-2 px-8">Privacy Policy</div>
+                            <div className="text-white rounded-md button-pp inline-block py-2 px-8">Privacy Policy</div>
                         </Link>
                     </div>
             </div>
@@ -88,7 +89,7 @@ const page = ({params}) => {
                 <div className="my-4 mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, doloribus.</div>
                 <form className="flex flex-row space-x-8 md:gap-8 sm:gap-4 gap-1">
                     <input className="rounded-lg border-black border sm:w-80 md:w-96 w-auto" placeholder=" Your Email" />
-                    <button className="bg-red-500 px-8 py-2 rounded-full text-white">Join</button>
+                    <button className="bg-blue-dark px-8 py-2 rounded-full text-white">Join</button>
                 </form>
             </div>
         </div>
