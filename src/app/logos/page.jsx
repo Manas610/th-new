@@ -1,6 +1,8 @@
 import ServiceSection from "@/app/logos/components/ServiceSection";
 import HeroSection from "./components/HeroSection";
 import appLogoData from "@/data/logos/appLogoData.json"
+import brandLogoData from "@/data/logos/brandLogoData.json"
+import websiteLogoData from "@/data/logos/websiteLogoData.json"
 
 function page() {
   return (

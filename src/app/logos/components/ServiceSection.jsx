@@ -8,6 +8,7 @@ function ServiceSection({ data }) {
                 key={service.id}
                 title={service.title}
                 logo={service.image}
+                date={service.date}
             />
             ))}
         </div>
