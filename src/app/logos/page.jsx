@@ -8,7 +8,7 @@ function page() {
   return (
     <div>
       <div className="min-h-screen">
-        <HeroSection name="LOGO -" image1={"/images/logo/hero_1.png"} image2={"/images/logo/hero_2.png"}/>
+        <HeroSection name="LOGO &amp; BRANDING" image1={"/images/logo/hero_1.png"} image2={"/images/logo/hero_2.png"}/>
         {/* <div className="mx-16 my-16">
           <span className="text-4xl font-semibold lg:text-5xl underline underline-offset-8 lg:underline-offset-[16px]">
             Our Recent Project
@@ -45,7 +45,7 @@ function page() {
           </span>
           <span className="lg:text-5xl text-4xl"> 🛍️</span>
         </div>
-        <ServiceSection data={appLogoData}/>
+        <ServiceSection data={brandLogoData}/>
         <div className="flex flex-col justify-center items-center my-16">
           <button className="bg-blue-dark rounded px-4 py-2 text-white">
             Get A logo Now
@@ -60,7 +60,7 @@ function page() {
           </span>
           <span className="lg:text-5xl text-4xl"> 🖥️</span>
         </div>
-        <ServiceSection data={appLogoData}/>
+        <ServiceSection data={websiteLogoData}/>
         <div className="flex flex-col justify-center items-center my-16">
           <button className="bg-blue-dark rounded px-4 py-2 text-white">
             Get A logo Now

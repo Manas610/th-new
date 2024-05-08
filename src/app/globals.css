@@ -55,7 +55,7 @@ body {
 }
 
 .glassmorphism-xl {
-  background: rgba(96, 165, 250, 0.2);
+  background: rgba(0, 150, 255, 0.2);
   backdrop-filter: blur(10px);
   border-radius: 12px;
 }

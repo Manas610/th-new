@@ -19,7 +19,7 @@ function HeroSection({name , image1 ,image2}) {
                 <div className="shape-blob five"></div>
                 <div className="shape-blob six"></div>
             </div>
-            <h1 className={`${playfair_display} text-white text-6xl tracking-wide font-extrabold z-10 drop-shadow-md`}>{name} PORTFOLIO</h1>
+            <h1 className={`${playfair_display} text-white text-6xl tracking-wide font-extrabold z-10 drop-shadow-md`}>{name}</h1>
             </div>
 
                 <div

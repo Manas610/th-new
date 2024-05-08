@@ -4,7 +4,7 @@ import CarouselTH from "./components/Carousel";
 const page = () => {
   return (
     <div>
-        <HeroSection name="WEB -" image1={"/images/web/laptop-pic.png"} image2={"/images/web/hero-2.png"}/>
+        <HeroSection name="WEB - PORTFOLIO" image1={"/images/web/laptop-pic.png"} image2={"/images/web/hero-2.png"}/>
         <div className="md:mx-16 my-8">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4">
             {[1, 2].map((card) => (
