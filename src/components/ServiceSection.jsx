@@ -21,7 +21,7 @@ function ServiceSection() {
 
         {/* website card */}
 
-            <div className="bg-sky-100 inline-block w-auto rounded-2xl h-auto hover:shadow-xl hover:shadow-slate-200">
+            <div className="bg-sky-100 inline-block w-auto rounded-2xl h-auto hover:shadow-four ease-linear duration-200 hover:shadow-slate-200">
                 <div className="my-8">
                     <div className="flex justify-center relative blob-container-sm-web">
                         <FaLaptop className="text-5xl mx-auto z-10 text-white" />
@@ -43,7 +43,7 @@ function ServiceSection() {
 
             {/* app card */}
 
-            <div className="bg-red-100 inline-block w-auto rounded-2xl h-auto hover:shadow-xl hover:shadow-slate-200">
+            <div className="bg-red-100 inline-block w-auto rounded-2xl h-auto hover:shadow-four ease-linear duration-200 hover:shadow-slate-200">
                 <div className="my-8">
                     <div className="flex justify-center relative blob-container-sm-app">
                         <AiOutlineMobile className="text-5xl mx-auto z-10 text-white"/>
@@ -65,7 +65,7 @@ function ServiceSection() {
 
             {/* logo card */}
 
-            <div className="bg-green-100 inline-block w-auto rounded-2xl h-auto hover:shadow-xl hover:shadow-slate-200">
+            <div className="bg-green-100 inline-block w-auto rounded-2xl h-auto hover:shadow-four ease-linear duration-200 hover:shadow-slate-200">
                 <div className="my-8">
                     <div className="flex justify-center relative blob-container-sm-logo">
                         <TbBrandItch className="text-5xl mx-auto z-10 text-white"/>
