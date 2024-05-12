@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "name": "SNT Medicare",
+        "description": "A Hospital chain based on Khatauli.",
+        "url": "https://sntmedicare.in/"
+    } , 
+    {
+        "id": "2",
+        "name": "Tycoon Hamlet",
+        "description": "A Tech Company that works on digital solutions.",
+        "url": "https://tycoonhamlet.com/"
+    }
+]

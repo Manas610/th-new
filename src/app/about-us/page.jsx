@@ -89,7 +89,7 @@ function page() {
                     We pride ourselves on providing exceptional customer service and are committed to meeting or exceeding 
                     the expectations of our clients. We strive to stay up-to-date with the latest industry trends and 
                     technologies and strive to continuously improve our services.</div>
-                    <div className="md:order-2 order-1"><Image src={"/images/about-us/our-mission.png"} width={500} height={500} /></div>
+                    <div className="md:order-2 order-1 pb-8"><Image className="rounded-3xl" src={"/images/about-us/our-mission.png"} width={500} height={500} /></div>
                 </div>
             </div>
 

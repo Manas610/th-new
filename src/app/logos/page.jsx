@@ -25,8 +25,8 @@ function page() {
         <hr className="border mx-16 my-24"/> */}
 
         <div className="mx-16 my-16">
-          <span className="text-black text-4xl font-semibold lg:text-5xl underline underline-offset-8 lg:underline-offset-[16px]">
-            Our App Logos
+          <span className="text-black text-4xl font-semibold lg:text-5xl underline-main">
+            App Logos
           </span>
           <span className="lg:text-5xl text-4xl"> 📱</span>
         </div>
@@ -40,7 +40,7 @@ function page() {
         <hr className="border mx-16 my-16"/>
 
         <div className="mx-16 my-16">
-          <span className="text-black text-4xl font-semibold lg:text-5xl underline underline-offset-8 lg:underline-offset-[16px]">
+          <span className="text-black text-4xl font-semibold lg:text-5xl underline-main">
             Brand Logos
           </span>
           <span className="lg:text-5xl text-4xl"> 🛍️</span>
@@ -55,7 +55,7 @@ function page() {
         <hr className="border mx-16 my-16"/>
 
         <div className="mx-16 my-16">
-          <span className="text-black text-4xl font-semibold lg:text-5xl underline underline-offset-8 lg:underline-offset-[16px]">
+          <span className="text-black text-4xl font-semibold lg:text-5xl underline-main">
             Website Logos
           </span>
           <span className="lg:text-5xl text-4xl"> 🖥️</span>
