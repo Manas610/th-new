@@ -72,7 +72,7 @@ function page() {
 
             <div className="lg:mx-16 md:mx-8 mx-4 ">
                 <div className="md:grid md:grid-cols-2 gap-8 mx-8 flex flex-col">
-                    <div><Image src={"/images/about-us/about-us.png"} width={600} height={600} /></div>
+                    <div><Image src={"/images/about-us/about-us.png"} alt="about-us" width={600} height={600} /></div>
                     <div>
                         <div className="flex flex-row justify-center">
                             <span className="bg-blue-light p-1 rounded md:px-6 font-medium my-4 text-blue-dark">Our Mission</span>
@@ -89,7 +89,7 @@ function page() {
                     We pride ourselves on providing exceptional customer service and are committed to meeting or exceeding 
                     the expectations of our clients. We strive to stay up-to-date with the latest industry trends and 
                     technologies and strive to continuously improve our services.</div>
-                    <div className="md:order-2 order-1 pb-8"><Image className="rounded-3xl" src={"/images/about-us/our-mission.png"} width={500} height={500} /></div>
+                    <div className="md:order-2 order-1 pb-8"><Image className="rounded-3xl" alt="Our-Mission" src={"/images/about-us/our-mission.png"} width={500} height={500} /></div>
                 </div>
             </div>
 

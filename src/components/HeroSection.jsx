@@ -7,7 +7,7 @@ import Counter from './Counter';
 
 function HeroSection() {
   return (
-    <div className="min-h-screen grid gap-4 sm:grid-cols-2 pt-12">
+    <div className="min-h-[720px] grid gap-4 sm:grid-cols-2 pt-12">
         <div className="animated-div justify-center items-center flex flex-col md:p-12 py-12">
             <div>
                 <h1 className="md:text-6xl text-4xl font-bold leading-tight px-4 pb-8">Elevate your brand with a Custom Website</h1>
@@ -35,7 +35,7 @@ function HeroSection() {
 
                         <div className="rounded-lg shadow-md overflow-hidden group cursor-pointer">
                             <div className="flex justify-center items-center h-48 bg-white group-hover:bg-blue-dark transition-colors duration-500">
-                                <Image className="animated-image" src="/images/home/graph1.png" width={150} height={150}/>
+                                <Image className="animated-image" src="/images/home/graph1.png" alt="graph" width={150} height={150}/>
                             </div>
                             <div className="p-4 bg-white group-hover:bg-blue-dark transition-colors duration-500">
                                 <p className="text-xl font-semibold text-black group-hover:text-white flex justify-center">Growth</p>
@@ -44,7 +44,7 @@ function HeroSection() {
 
                         <div className="rounded-lg shadow-md overflow-hidden group cursor-pointer">
                             <div className="flex justify-center items-center h-48 bg-white group-hover:bg-blue-dark transition-colors duration-500">
-                                <Image className="animated-image" src="/images/home/digital.png" width={200} height={200}/>
+                                <Image className="animated-image" src="/images/home/digital.png" alt="digital-presence" width={200} height={200}/>
                             </div>
                             <div className="p-4 bg-white group-hover:bg-blue-dark transition-colors duration-500">
                                 <p className="text-xl font-semibold text-black group-hover:text-white flex justify-center">Digital Presence</p>

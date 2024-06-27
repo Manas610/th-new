@@ -24,24 +24,26 @@ function FooterTH() {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>
-              <Footer.Title title="about" />
+              <Footer.Title title="Links" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Flowbite</Footer.Link>
-                <Footer.Link href="#">Tailwind CSS</Footer.Link>
+                <Footer.Link href="/about-us">About Us</Footer.Link>
+                <Footer.Link href="/services">Services</Footer.Link>
+                <Footer.Link href="/contact">Contact</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="Follow us" />
+              <Footer.Title title="Services" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Github</Footer.Link>
-                <Footer.Link href="#">Discord</Footer.Link>
+                <Footer.Link href="/websites">Websites</Footer.Link>
+                <Footer.Link href="/apps">Apps</Footer.Link>
+                <Footer.Link href="/logos">Logos</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="Legal" />
+              <Footer.Title title="Contacts" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Privacy Policy</Footer.Link>
-                <Footer.Link href="#">Terms &amp; Conditions</Footer.Link>
+                <Footer.Link href="tel:+917508565605">+91 7508565605</Footer.Link>
+                <Footer.Link href="mailto: contact@tycoonhamlet.com">contact@tycoonhamlet.com</Footer.Link>
               </Footer.LinkGroup>
             </div>
           </div>

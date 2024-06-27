@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <head>
         <ThemeModeScript />
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.className} max-w-screen-2xl mx-auto `}>
         <HeaderTH />
           <div>
             {children}

@@ -48,7 +48,7 @@ const page = ({params}) => {
                 </div>
                 <div className="block">
                     {/* <div className="text-white rounded-md bg-red-500 inline-block py-2 px-8">View on playstore</div> */}
-                    <Image src={"/images/app/google-play-badge.png"} width={250} height={250} />
+                    <Image src={"/images/app/google-play-badge.png"} alt="Google-Play-Store" width={250} height={250} />
                 </div>
                 <div className="flex flex-col"> 
                     <span className="mb-2">Tags:</span> 
